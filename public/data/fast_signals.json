@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:01:02+00:00",
+  "generatedAt": "2026-08-25T07:49:28+00:00",
   "mode": "live",
   "refreshIntervalMinutes": 20,
   "policy": "Vigilancia rápida independiente: detecta eventos y urgencia, pero no modifica el score oficial hasta el pipeline diario.",
@@ -280,10 +280,10 @@
     },
     "MSFT": {
       "ticker": "MSFT",
-      "newsScore": 52.3,
+      "newsScore": 50.0,
       "signal": "neutral",
-      "urgency": "high",
-      "signalStrength": 4.6,
+      "urgency": "low",
+      "signalStrength": 0.0,
       "items": [
         {
           "title": "Microsoft (MSFT) Stock Trades Near Fair Value Following Its 66% Run - Yahoo Finance",
@@ -350,6 +350,22 @@
           "firstSeenAt": "2026-08-25T01:37:01+00:00"
         },
         {
+          "title": "After Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+          "source": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUXRIMktwQVh5RGtJbFFlTUFpNXA5bkhXWEFEemNpaUgtd2dhUHRURFZta19UdTc3eC1uaVVnOFVZZVZhcnlNSzNVd1RmV0JWM2E4V25Ec19DOG9IYnYyYVY0UVlsbm5BTF9rLXdGZXI3MjdreWdpLTZqVjBjcnVhNkh4cjBMSV9xUDdXTDVtblBVaWQ4RlIxY0JldnliZw?oc=5",
+          "publishedAt": "Thu, 06 Aug 2026 07:00:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "resultados",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.8,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "ac0affc546dd548eadac",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
           "title": "Microsoft (MSFT) Stock Outlook for 2026 | August Edition - Forbes",
           "source": "Forbes",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmtVQTVaakRua1c0cFJOeFNYWmxVakR4VkNPSjYtYk9tQWRmTkRjWWNYbzhfeEZuMFhqbjhXb0x6bFR0Q29XUGVVckNvcmRBVF9JeWUxbTA4ZzJKanlIakRBbVhXLWNkYTdwaVZKcXJJdmlWU1NSd21KQlVxRFVGeGREMkIyUXVCTHFkbg?oc=5",
@@ -396,22 +412,6 @@
           "impactWeight": 0.0,
           "id": "ec1e5849aa511826bd4c",
           "firstSeenAt": "2026-08-25T04:22:06+00:00"
-        },
-        {
-          "title": "Microsoft (NASDAQ:MSFT) Combines Strong Growth with a Promising Technical Setup - ChartMill",
-          "source": "ChartMill",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdkZ3Q3V6bjltNFpEVHpLUDFwbl9wbFdWLUdHczJsd1g2WEJPU0xuUHotTmRqazRIenQ2SFRZVGhZWURhSmVtMmItcUYwWmVOOW1xcGZ3Z25IRjZFbVg0Tm1XeEQzMUNyQ0hLMVJQZ1JNNEpMbE9MUElISUFGMmFSN21pRzFXVjRfbVBEMDFmWnFkQ1RKZ3RVc0dOVjZxZGxuM1dzdF83ZWdmQ3gyZzQwOXEwekZySEFnSnhsd3Y3aTNxT3hSSGZ3?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 11:11:52 GMT",
-          "sentiment": "positive",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.58,
-          "relevance": 0.85,
-          "novelty": 0.889,
-          "entityMatched": true,
-          "impactWeight": 0.4382,
-          "id": "b257924c3c57111f0ceb",
-          "firstSeenAt": "2026-08-25T07:01:02+00:00"
         }
       ]
     },
@@ -423,6 +423,22 @@
       "signalStrength": 0.0,
       "items": [
         {
+          "title": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock - Barchart.com",
+          "source": "Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3RZWWUzSUtZbUtrREFQOUxyUVVObUVHb242N0U0aUo5dDhMcGxPX1lIblc2Rm5jTUxvd0ZicnAyQ2xoWnhjYXJaYWNFMnlHOE9jVkxOSGZld3BndnU2akVPcWs0czRMX2dyTjczYk92WDdrOTBObzBBT0VJd2ROR2JGd2tCWG9FZWhNVU1wMThOalhHYWh2ZWt3OE12Zl9Qck50Y1o4alppbG9CUlVnZ0QtV2trOW94dlZ0NEFZbHROVmM?oc=5",
+          "publishedAt": "Sun, 23 Aug 2026 19:00:02 GMT",
+          "sentiment": "neutral",
+          "eventType": "resultados",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 1,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "08de0106f335bb5e38b9",
+          "firstSeenAt": "2026-08-24T23:00:19+00:00"
+        },
+        {
           "title": "Here's what the charts say about Nvidia's stock heading into earnings - CNBC",
           "source": "CNBC",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFhaSEVYM3VqeDhmNmRzOUFxUXN5R2E4bjYtQnhrQzNULVNkVzRoS0FBMmZvbmh2SzZZaXVUeFpCLXBKR19meXZsOWV6eHo3d1FGSDl1a1dxckVyWWdsTTk0ZDJHSDNiWVFzUWFDZ0xaT1BxNDA1SE9mc0gxekpNS1hhNGtrSFZ4M0ZXdjdCX0V2aUF1UjlNNUJVeWZLa1RFcVZPTk1RVQ?oc=5",
@@ -432,7 +448,7 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 1,
+          "novelty": 0.762,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "b8d78e9bf6cefb4eae55",
@@ -469,22 +485,6 @@
           "impactWeight": 0.0,
           "id": "2a4c148368611f45b051",
           "firstSeenAt": "2026-08-24T16:16:33+00:00"
-        },
-        {
-          "title": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock - Barchart.com",
-          "source": "Barchart.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3RZWWUzSUtZbUtrREFQOUxyUVVObUVHb242N0U0aUo5dDhMcGxPX1lIblc2Rm5jTUxvd0ZicnAyQ2xoWnhjYXJaYWNFMnlHOE9jVkxOSGZld3BndnU2akVPcWs0czRMX2dyTjczYk92WDdrOTBObzBBT0VJd2ROR2JGd2tCWG9FZWhNVU1wMThOalhHYWh2ZWt3OE12Zl9Qck50Y1o4alppbG9CUlVnZ0QtV2trOW94dlZ0NEFZbHROVmM?oc=5",
-          "publishedAt": "Sun, 23 Aug 2026 19:00:02 GMT",
-          "sentiment": "neutral",
-          "eventType": "resultados",
-          "duration": "medium",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.762,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "08de0106f335bb5e38b9",
-          "firstSeenAt": "2026-08-24T23:00:19+00:00"
         },
         {
           "title": "Why Nvidia Is A Broken Stock (NASDAQ:NVDA) - Seeking Alpha",
@@ -672,20 +672,20 @@
           "firstSeenAt": "2026-08-25T06:03:36+00:00"
         },
         {
-          "title": "AMZN Stock Drops Nearly 2% After-Hours — Senate Panel Reportedly Probes Amazon Over Alleged Chinese Influence - Stocktwits",
-          "source": "Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRVNXWXAtNWVsUWRhdDVTMWxDTjJtUWwxNFpzN2hIcUk4M3RMeThoMVo4NkwzQ0JuRVl2ZlE0TjZYVVY3ZDYzZU9jTmNpQjFIWlJUa2YyWkpvaktuWHphMXdyUW9WczVvNU5YU1psOTBRakpsV2lNamZXcVVBODdrRTlmRGgwN3ZheW9GZUEyY2Q4dGhJU3RJTVE2R3Bpd09fanAxaWZEbXFCaTUtS0taMlE4QW1PWWQwcWJ2d0lKaFd3WGZPaVNZeHd1dWY?oc=5",
-          "publishedAt": "Fri, 21 Aug 2026 11:02:54 GMT",
+          "title": "After Earnings, Is Amazon Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+          "source": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUJfbTBpX1RKdW1fTE0zclVUT21KTS15TTJ3NFVJYzhOS3JCZkR6UEFyWTRVbjBNOWRrSHhYbkRnNjVKNG1NV3AwN1ZZNzlmZzVJbUNhd19NbEtBSFVBQlhteVlpWkhqXzdtbk1GYXhYckZKZG9uNk41Z0RIajZZMTBlM0h5dW9xdTFYTzV3TmNHRVp2aEVpZDR4MFFGV194TDRGRw?oc=5",
+          "publishedAt": "Wed, 12 Aug 2026 07:00:00 GMT",
           "sentiment": "neutral",
-          "eventType": "regulación",
-          "duration": "structural",
+          "eventType": "resultados",
+          "duration": "medium",
           "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.87,
+          "relevance": 0.69,
+          "novelty": 0.812,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "0757830f2af5bff56559",
-          "firstSeenAt": "2026-08-25T07:01:02+00:00"
+          "id": "cb6769efb61dbd6b4d9a",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
@@ -697,6 +697,22 @@
       "signalStrength": 0.0,
       "items": [
         {
+          "title": "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First. - The Motley Fool",
+          "source": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcHhQZ3pZWk4wQW5jek5ESmcxLUVpeDZoQXNHMDQwbU1Td1ZCaWVsSk85U1EtUElQMVFIODFYS0l4dWlNNlB0ZkFpZF9yVVNMRFNBcVFDczZpOFZHVGlJM3lfQlBWZURzNE5rS2IybjVuQ3lNWTdTdXVYc1VzSnM0WVVIdWRBVW00bmRidUJFN0FiajB2U0FkT3Y1NGhHRnZpRWJlV2tSb3FBV2phMGlhTVk4WlpEd3FaY2ZTODJtclJJR3J1blE?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 04:38:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 1,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "e611179606341e4f512c",
+          "firstSeenAt": "2026-08-25T04:22:06+00:00"
+        },
+        {
           "title": "Alphabet Grew Cloud 82% Last Quarter. The Stock Still Trades Cheaper Than Almost Every Mega-Cap - TIKR.com",
           "source": "TIKR.com",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTmIxaVlPNTdQbk9LZXdoYzhrdXFLWWlrU2JZNDJidG5ES0o5RVg3MlpERENycVJ5bGpRc2tKUkdjSGlBcGFvaFc5Wk81UFRsVzFlUDdUaXNDT3lNS3RPdGFoNi1raE5va0RFTjc1bEV3MzVCMG1kVFJFWUFpaDBwc21QOVNkdUk3U0RkVjJRdXBuQkhDWHg5Vmk5MGRxbmdjUzZ3Zy1TX3JMeWw2Vk1RVFQ5N1hHS1lLa2lv?oc=5",
@@ -706,27 +722,11 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 1,
+          "novelty": 0.889,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "7d39628903b7286945b9",
           "firstSeenAt": "2026-08-25T01:37:01+00:00"
-        },
-        {
-          "title": "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First. - The Motley Fool",
-          "source": "The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcHhQZ3pZWk4wQW5jek5ESmcxLUVpeDZoQXNHMDQwbU1Td1ZCaWVsSk85U1EtUElQMVFIODFYS0l4dWlNNlB0ZkFpZF9yVVNMRFNBcVFDczZpOFZHVGlJM3lfQlBWZURzNE5rS2IybjVuQ3lNWTdTdXVYc1VzSnM0WVVIdWRBVW00bmRidUJFN0FiajB2U0FkT3Y1NGhHRnZpRWJlV2tSb3FBV2phMGlhTVk4WlpEd3FaY2ZTODJtclJJR3J1blE?oc=5",
-          "publishedAt": "Tue, 25 Aug 2026 04:11:08 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.889,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "e611179606341e4f512c",
-          "firstSeenAt": "2026-08-25T04:22:06+00:00"
         },
         {
           "title": "Here’s How Much You Would Have Made Owning Alphabet Stock In The Last 15 Years - Benzinga",
@@ -745,20 +745,20 @@
           "firstSeenAt": "2026-08-24T15:44:55+00:00"
         },
         {
-          "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
-          "source": "TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
-          "publishedAt": "Sun, 23 Aug 2026 22:38:45 GMT",
+          "title": "Alphabet (GOOGL), What Is Behind The Fresh Attention? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWlppZnFoNVY2emZVTGZGeExacm1tYmVuRFF1bzlDSENObnNnSVMwckRzcXRYOS1RX19oWDczUVhqcFF4Q29sYk5WcnFXYXN0SkpocUJDanp3TWZPUGhNbFRfS0FEMkx1ZlpfdDAwN08xcjVxS3c5NENFM2VjUW5oZzd4QXhVdDVBanQwc0hiVl9DWjkzTVBKeFRKV1VNcFJwNC1pNlppYzRkb1Q2eVNRZnJ4Y2rSAboBQVVfeXFMTUZISkVhLVpiS3IxMVo5d0VNc3VMcXNKYnpOcGo2b2lRdlpVS0I0b18zOUR6SmhYS2MxaU9zUlROZWRaZmlsMGN1amxNV3V6QTZ3Z2cyb2JnSFRLRjM2bE5PR18wV3htWnREZ3VRZXlsUzJzdldReE5hNTZHVGRYdWJhaVFWLU1sOXFnTmF2dTFaQ3JVN0RVZ2VtZmUyVG9QVDAteTlCNnNDUkZFQklna0l0R0I1WHNMYjJn?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:31:03 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.897,
+          "novelty": 0.895,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "c5a43a3452ccb560ecf7",
-          "firstSeenAt": "2026-08-25T07:01:02+00:00"
+          "id": "41cff5aba76916fe8bbb",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         },
         {
           "title": "Snap Rises 4%, Meta Platforms and Alphabet Tick Up, Reddit Slips as the Social Media Trade Splits - 24/7 Wall St.",
@@ -809,20 +809,20 @@
           "firstSeenAt": "2026-08-25T04:22:06+00:00"
         },
         {
-          "title": "Coinbase (COIN) debuts tokenized stocks on Base with Apple, Nvidia among first shares - CoinDesk",
-          "source": "CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOXZIQldPQUlDVDdlblo2bWNWREhkamFaQm5uMVl5NU9wN0JQM1JSQXQ2cENYVlhieHFqN0pCMC03MzNhTFpNSFpnZ3NJVmg2Y1hLX0prMGhCT2traWZRYUVBZk53bVZjSmNpRWdrMmppd2syeU9GZGIwVF92dDM2YXU4clRTTTFpMmQzRWgxYjhfb0tqb2J5Zjl6cGlJdW5rN1hKQVhKWkRNVm5xWFJfcnNiejRpTFQ5T0JscHFLb3haRS1hYlpxOXduOUZUZFRXMkRuYw?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 17:12:35 GMT",
+          "title": "After Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+          "source": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5",
+          "publishedAt": "Tue, 04 Aug 2026 07:00:00 GMT",
           "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
+          "eventType": "resultados",
+          "duration": "medium",
           "confidence": 0.45,
-          "relevance": 0.35,
-          "novelty": 0.96,
-          "entityMatched": false,
+          "relevance": 0.69,
+          "novelty": 0.812,
+          "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "cae65ae7050a4596aa94",
-          "firstSeenAt": "2026-08-25T06:03:36+00:00"
+          "id": "f7fe33c0387204fb0008",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
@@ -1083,20 +1083,20 @@
           "firstSeenAt": "2026-08-25T04:58:39+00:00"
         },
         {
-          "title": "Why is Tesla stock sliding today? - Investing.com",
-          "source": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZmhEZ2dXNXF3Zm5HWnpvbnBpYVRySnhxckxaUFJxc01neXplRFhwNVBKMDctZEdLRFpKTWhKME0welZHdFFmQ1pRdnpucnhDQ2NFNnJYMDB0OEJudkltSzlvUmRYdHMwaVQ2ZVNRbUtsRjJ6SEhEb1YwZ3pQTW0xQVJyam9DUnhMQkgyUk9OVHFKTjhVOG1aT1Vn?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 14:34:12 GMT",
+          "title": "Tesla (TSLA) Stock Could Sink In The Last Half Of 2026. Here’s Why | August Edition - Forbes",
+          "source": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSlVOdUE0UkZhaVQ1amxlT0xoZUlhc2xzTkNrNFR4Y29udDhHbTZfSndCLUQ4MVRHZ2xzZkczUFROc2kyTFJLTGVzd1p3MDN1VVNlZC1KTzhLTEpkWjhqQjNOLVZiOEpTZ0VCMUZ4RzM5VXkzLXdRWEhrS0pIZnZnVDFHOA?oc=5",
+          "publishedAt": "Fri, 21 Aug 2026 20:11:00 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.824,
+          "relevance": 0.85,
+          "novelty": 0.85,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "e31cf7ec13b46314f726",
-          "firstSeenAt": "2026-08-25T04:22:06+00:00"
+          "id": "ad1d614c1f6f672ae95c",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
@@ -1156,6 +1156,22 @@
           "firstSeenAt": "2026-08-24T19:34:22+00:00"
         },
         {
+          "title": "Ascentis Wealth Management LLC Has $1.52 Billion Stake in JPMorgan Chase & Co. $JPM - MarketBeat",
+          "source": "MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaHBXQ0ZUUGZKQXNuWTNPVkVXRXlpX2w0alJsTDRCMDVSWnBNRTV1eFBlZGkwb0pUQjQtVUp6ZC1ZeVJvR196d3ZzUy1JS1dBaTBuQzd6VXlONzdWelBOZmVqcV9kYzc1X0FoTlhIYUF3bnVtVURyUl8xMEZhVUZLTUxsWWNodkxHWFhFUzc4OWd3bVBGU3EwWFcwS0FVWGxOU2pVaDBGakpUcWNZSGdtU1UzS18zZ1FTbTlyTWhYVjdVVE5zdUJIVVlHVEk4UHRCRndjMw?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:35:32 GMT",
+          "sentiment": "neutral",
+          "eventType": "administración",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 1.0,
+          "novelty": 0.864,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "4f8aa6fd901f9991fc04",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
           "title": "JPM, GS, MS Stocks Edge Higher After-Hours — Banks Lift Dividends And Announce Buybacks After Fed Stress Test - Stocktwits",
           "source": "Stocktwits",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNFBEZVk5UzVPNXJWQVZoMWpvSlBWaEhYa0hOeGpuQ0VpSTFVU01JeHljcXNvM3FoN2xveHFoQ3Y4RnZuVTh0eHJ4ZnhPWGZhUVphNWo1OE5Qa2dlTXh5WjQxMVFUTHJIUlhXS3F2SkFlLWI0dGpnMjdVZTFWdVRYQk4xZjRhUjVVeThYclhrWDFQOWFPZFZjNGViMkwycVpvbXc1aElLQkxSRGx0d2JBWDdWRnBvekJmLUtlOGlpV0o3dDRNWURaSlQ3UTVRNkRabGVOVDB2OFJoM3dBNHJJeERLcjM?oc=5",
@@ -1188,20 +1204,20 @@
           "firstSeenAt": "2026-08-21T18:45:28+00:00"
         },
         {
-          "title": "JPMorgan Chase & Co. (NYSE:JPM) Trading 1.4% Higher - Here's What Happened - MarketBeat",
-          "source": "MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWxMVlhQRGZidHpkc25nWnI0YWs2NnprclBZMEp4MzkxeTRyTXQzLWZ2TjIyY1g3NXBpWVA5Sy1rQi1zeGxKQm5CY1VLWW90WHlGdlNGSlViV2l4MWozMXVhY1RSY2J0SWEzZHFmcmZiNV9NaWE3SU4zd2xROW4wUjhybnVrbEphZVBJZVNXVEtaWnAweGhSenhaekRacE1JT2llaTJlWXZJSU1qLTFUUWY3cjBQY2o5?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 21:24:32 GMT",
+          "title": "REG - Trainline PLC JPMorgan Chase & Co - Holding(s) in Company - TradingView",
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDZ4dVlLZXlXVzJsR2xRbXBiY0ljaXJjOHlVSnFYN0diLWo5c2ZTT29DVXI5QWhQY1V6WlVicnY3YUJCd2hZdkNocDJzcUs5SFlTNkVzY2NiOXpuLUE0UlZKbGt1WkZJWlAzV0Z0dk8yRFRDS3dETkRzT29Eb1YxR3JlYm1kajQzTGJ2WExNd19GT2c3amhJQmZtcGc4RmRHUkFiSEx0VDhHNTA3V3VqaXBJNWRxVjNNMzEtWExVUzk4OE1vMTVCa2JEMUw?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:25:12 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
-          "relevance": 1.0,
-          "novelty": 0.8,
+          "relevance": 0.85,
+          "novelty": 0.882,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "13ce0dff56da7ee26640",
-          "firstSeenAt": "2026-08-24T21:37:41+00:00"
+          "id": "d410e396ba3e782fcb98",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         },
         {
           "title": "JPMorgan Chase stock rises on a $356.34 price and $58.02 billion quarter - Ad-hoc-news.de",
@@ -1213,36 +1229,20 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.857,
+          "novelty": 0.842,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "0ed1dfab51ff82d1809c",
           "firstSeenAt": "2026-08-25T04:58:39+00:00"
-        },
-        {
-          "title": "Guarantor: JPMorgan Chase & Co. - StreetInsider",
-          "source": "StreetInsider",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX2NBX1FUMnphN1J4Q3ZueFN5ZmZvMldJejZmTVl1QTFYQkhuN3J0dVhjRk9NZ1ktUzgwOUQydGtRaTlablR3VFNFNTgxdWJMRW55UjZiVWxjOFRjak9rWkdQUklPai0xamF3Ul91YkZlNTVlTlhFanpxZXNjMnJlaS1ubDViWXZUTE9IRWUxOWxINE44c2s3Z3NR?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 16:44:24 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.833,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "e61d9e9f3319f0a1cc2b",
-          "firstSeenAt": "2026-08-25T07:01:02+00:00"
         }
       ]
     },
     "BAC": {
       "ticker": "BAC",
-      "newsScore": 47.8,
+      "newsScore": 47.9,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 4.4,
+      "signalStrength": 4.2,
       "items": [
         {
           "title": "Bank of America Offers Good Alternative To Treasuries: 6.6% Yielding Preferred Shares - Seeking Alpha",
@@ -1309,6 +1309,22 @@
           "firstSeenAt": "2026-08-22T09:32:27+00:00"
         },
         {
+          "title": "Bank of America Corp DE Grows Stock Position in NIQ Global Intelligence plc $NIQ - MarketBeat",
+          "source": "MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQXBkOGtRX1V5RkhPam9tSnRXRDdyNkdVdHV4YThwT0hqbTltZGw1UXFVam9GUWpHX0tSUHltUzlGZmhUT3lac1hlS0laM1R3Zkd6T2FETldjNG1BQm9wNmQycTIxX3k2QkE3T1R5T0NSLWU2cnkyV205VDdNeFJZelFyTWx3aHVMNk1kNDZFc2tyOVdoWEtZNE5aRmxvWXpuZmN2clRHU0JQQWRvUzdNU2lpamp0TjQtY2ptNk03Q3J1WmRQRU5BSzNQcXZMZFd4ME5YcHVfbw?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:35:37 GMT",
+          "sentiment": "neutral",
+          "eventType": "regulación",
+          "duration": "structural",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.864,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "652b48048e457183d397",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
           "title": "How Investors Are Reacting To Bank of America (BAC) Dividend Hike Amid Solid Q2 Results - simplywall.st",
           "source": "simplywall.st",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOHFPLU56TGJLd09kMlFzSEZJdldDVWJFUTVSZ0hTLTdBTlFVenp6YVp1UWptS1k2VWp6dWF1S09KZVdlV2hDYUx2c29ROXpUdi1RVW04eUNMakt3YWpKbU51dHFQdmd2WVNiaGpGMy1HRTNHUEdmeS1SXzdiLXlxZThDWGlwT0JDQ3YwQ0hCdW9mWUM2SF9NbWNnb3pOQUtialBHSXhfNnNzZlYwa0c3bzBrVkd1RGVmQi12UVBSa2lFXzl4OGNV0gHMAUFVX3lxTFBlOFZMUU9hc2FFdURSSHVpdlpuYVcxcUtyTFNBcDFZQURBVmEwT1U0aHluOUtXeEZCNnR4RTZQTkZiaXlyTHFyb2VpZ0x6UW14SG1WSW5LSnl1RkxGa2J0SkFBSGV1dmpsbHoxTElKX2l0WEZyeGkxREYtbGs1QV9OdFVjRzZEYWJueTRVcHJCamUxQWV6VVFPZ0FVdDNuaGVMR3NLOHlTeWtCUjJiSEwxSGlEQzlsaXpUZlo1aFZsTTVBWUJpRnlsdFd6dg?oc=5",
@@ -1334,9 +1350,9 @@
           "duration": "structural",
           "confidence": 0.58,
           "relevance": 0.85,
-          "novelty": 0.842,
+          "novelty": 0.812,
           "entityMatched": true,
-          "impactWeight": -0.4152,
+          "impactWeight": -0.4006,
           "id": "2e459599ec3e6fb5d5c1",
           "firstSeenAt": "2026-08-25T07:01:02+00:00"
         },
@@ -1354,22 +1370,6 @@
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "26d3695c98b6f7a03f8d",
-          "firstSeenAt": "2026-08-25T07:01:02+00:00"
-        },
-        {
-          "title": "Bank of America Upgrades Suzano (NYSE:SUZ) to Buy - MarketBeat",
-          "source": "MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjVhYlRBOU9kNFQ1S004N050UmpnV0dOdFFPV2s4Xy1aVklRX2EycWZJaHQ1Q2hBaUdOZXNTaUNlcWRhMW5YelZKWGlNdTFqWmJuWkFNVUlXN1QtSDd3WlhhMTdQMnBxSTBseGVzV3JnUEJSTXZEWUQxNWVKSGtEVjZtanhGS0pXVGN3ZF9EaTFWVDJhWkFPeHotT1RXdUl0d2c?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 12:09:51 GMT",
-          "sentiment": "neutral",
-          "eventType": "regulación",
-          "duration": "structural",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.857,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "e8e8e2c22dd0cde942aa",
           "firstSeenAt": "2026-08-25T07:01:02+00:00"
         }
       ]
@@ -1412,6 +1412,22 @@
           "impactWeight": 0.0,
           "id": "f470bb2914f389d86d71",
           "firstSeenAt": "2026-08-25T04:58:39+00:00"
+        },
+        {
+          "title": "The Goldman Sachs Group, Inc. $GS Stock Position Lifted by Allstate Corp - MarketBeat",
+          "source": "MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVVpjVHFfZDZVNFFDaWFnSktNOWdkMmNZRG9KNkxZa1YwdWI2OHZydElsTFp0YWhYMGlFVDJjWUtyRmEzaGZ3S1JUSV9Tb2Y0T2s3Y0FJUndsU1pxWm9YbTI3NDdmZ2Z1eFcxOXhFMXh5VW9OZ25BZV9oRUR4NHVVLVRPOWhhTWJvaGVjdzRfYWl6MUw3VS1hV29adnZOMGJDRnRuVTh6Q09kaXR5c1RWbVZsOXFaNWt5eUYxUDkwQWhqUEQwX28xcVpB?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:17:02 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.722,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "7f59dafccafdfa7c28b1",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         },
         {
           "title": "Why Did Banking Stocks GS, JPM, BAC Surge To 52-Week Highs Today? - Stocktwits",
@@ -1471,27 +1487,11 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.85,
+          "novelty": 0.842,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "0bd9d2af178c2c5c8af2",
           "firstSeenAt": "2026-08-24T20:36:35+00:00"
-        },
-        {
-          "title": "The Goldman Sachs Group, Inc. $GS Shares Sold by Westpac Banking Corp - MarketBeat",
-          "source": "MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbjF6bVBOd21VRlpFb2dxaGJZcG9zZmQ2c0I4TWJxalVlVlp1NlNBclBLZHJXZVZVRGlMemRORzl3ZVVZWXJDNERDcHhUSlF0ZDZYWmhPUWlQYnlTZDRyeWhSbTkyRVN6OGpZZDUwWkE3Uzl2bXprM01XRFNGRVlTRXdFQ3R1OFRHNjJna3IxTjVDX2JtT0ZleFNqV196UW9rOGFrRm5HTy1YOVk4LTVuRHZkMHpNTkNuNWV1MmtQTmdzdlF2dmc?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 09:44:38 GMT",
-          "sentiment": "neutral",
-          "eventType": "regulación",
-          "duration": "structural",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.789,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "b876582389a5ae1c670c",
-          "firstSeenAt": "2026-08-25T01:37:01+00:00"
         },
         {
           "title": "European Stocks Defy Global Shocks with Strong Earnings Growth - Goldman Sachs",
@@ -1825,6 +1825,22 @@
           "firstSeenAt": "2026-08-24T23:57:26+00:00"
         },
         {
+          "title": "LLY Stock Hits All-Time High — Is CVS Coverage Boost For Zepbound Driving Gains? - Stocktwits",
+          "source": "Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUkdkR0FROUhqVnJfbURFQmcxTTZXTkNvMmViNTRHMk9LTVItcGYwc1BfeXhjc2lqVmhxd2l1Y0ZRSE1hWVd2RWdnR0c3TU96OUMwOEUzc1JwZVRHWkdrczNtMlFFQzhRZFlfVWQtR3ZoTTd5TUZtNS16UUkzbi1VUVl4Nlh1d2RVZHRDZE1fQ20yRmlrcEFlMWE4Y09ReUlkSDVocm9jTmtkaDRRMjNUY0VOTy1oYWhhRUlFZXFRVk9RUHdIN0VyaER0TlNDUmJQeTFtM3RNVFA0ZGJpSVE?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 02:44:21 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.92,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "d41c77c7c2605d240a56",
+          "firstSeenAt": "2026-08-25T04:58:39+00:00"
+        },
+        {
           "title": "Stock Split Watch: Is Eli Lilly (LLY) Stock Next? - Yahoo Finance",
           "source": "Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVDRENmlCb1RfbWprZ1Rzcl84cVh1dnJtZ185dG9mOFoyUTZOSXRBWjVRYlZtSzlSZzlsUzNDQ0k0dFdEOExnajNTY3NuQzhkbVhMcUQxSHIzUl9wU2pwaG8tWWcyQjY0d3dxd2ZJQml6X0JfempubVotRlBxc055bHg3a09aRC1jTndFZ2hjQWUwcXVpc2Zv?oc=5",
@@ -1857,22 +1873,6 @@
           "firstSeenAt": "2026-08-24T14:48:46+00:00"
         },
         {
-          "title": "Eli Lilly (LLY) On Foundayo Launch And Higher Outlook Faces A Rich Valuation - simplywall.st",
-          "source": "simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc1RfcHQ4OXBrclIzY2E4VFBMd1VTQW5Mb0d5ekpNZ1Q4TFdrUy1WVXJiWU16dlFOME4tR0VLQ3RHWEtMQ1lwNkxvZFN5S0hHekV1ZWc5d1RMREtTOGZpTU9yRDFWMFEyYnBhSkJ4TnhLaVdaRzFnMmtlM3RVMWNLUWRMUEVJT0J4ZFZVbjNLWFBFZDl0MjlYQlhDbWlsQjFqWnlpcUwzdi16ZWhIbEoxeWdYdmhkSW8xQ3dTSk5EVDdlMWpQclBlelNCY0hYRGVBVnpMTmlB0gHbAUFVX3lxTE4yRkNJM0NmNXc2UmFpMHUyYUpKUGlLX09ILUNReWQ2LXRCUmpvUFQtZUxISWI4NzI0Q3RBTlFFQ1ZDd2o3OWFLSDVZSVpPQWU3cGlmY0VWZHlhY01oQnlzNmpYNHpWX3g0ajNITDU0MHNELVhiN2h4Tl9XRGFrSjNRUHRobjdjZGlpMVJsWWNZQkxCR1ZuT01OQV9XczNjYzlKYmJNRTNlNkZ4UnR6Y1g4UFZqVjE4NUdacmNIZTdQLWF2S0RKQWNSdXRwYzFMSW5Ud2pSVlFDaUY2Zw?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 15:31:11 GMT",
-          "sentiment": "positive",
-          "eventType": "producto",
-          "duration": "medium",
-          "confidence": 0.58,
-          "relevance": 1.0,
-          "novelty": 0.833,
-          "entityMatched": true,
-          "impactWeight": 0.4833,
-          "id": "f082793270ddf194e7ea",
-          "firstSeenAt": "2026-08-24T15:44:55+00:00"
-        },
-        {
           "title": "Eli Lilly launches oral weight-loss drug Foundayo in UK - Euronext Markets",
           "source": "Euronext Markets",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVPNEZuTGpSR2lWY1pOdFZkY01sS25qVGMteTJqNjJJMUxWQ2M2VXIzVUpTLXlSX1NpWlUwbTR2dEl3YW9kYWZyVVlwNjdmeUswMTZJMFJFSUp2R1hPOFphR3lLaldlejZXbU5WY2NZdUE5c25qTUZwOHM2UTR5amNVeHBJaU9TNDlHRmFqVG9OWnE0eENadUFDZ3Y?oc=5",
@@ -1882,7 +1882,7 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.842,
+          "novelty": 0.875,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "ea546b3f3957131a4d1b",
@@ -1905,20 +1905,20 @@
           "firstSeenAt": "2026-08-24T16:16:33+00:00"
         },
         {
-          "title": "LLY Stock Hits All-Time High — Is CVS Coverage Boost For Zepbound Driving Gains? - Stocktwits",
-          "source": "Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUkdkR0FROUhqVnJfbURFQmcxTTZXTkNvMmViNTRHMk9LTVItcGYwc1BfeXhjc2lqVmhxd2l1Y0ZRSE1hWVd2RWdnR0c3TU96OUMwOEUzc1JwZVRHWkdrczNtMlFFQzhRZFlfVWQtR3ZoTTd5TUZtNS16UUkzbi1VUVl4Nlh1d2RVZHRDZE1fQ20yRmlrcEFlMWE4Y09ReUlkSDVocm9jTmtkaDRRMjNUY0VOTy1oYWhhRUlFZXFRVk9RUHdIN0VyaER0TlNDUmJQeTFtM3RNVFA0ZGJpSVE?oc=5",
-          "publishedAt": "Sun, 23 Aug 2026 18:01:24 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.905,
+          "title": "Eli Lilly (LLY) On Foundayo Launch And Higher Outlook Faces A Rich Valuation - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc1RfcHQ4OXBrclIzY2E4VFBMd1VTQW5Mb0d5ekpNZ1Q4TFdrUy1WVXJiWU16dlFOME4tR0VLQ3RHWEtMQ1lwNkxvZFN5S0hHekV1ZWc5d1RMREtTOGZpTU9yRDFWMFEyYnBhSkJ4TnhLaVdaRzFnMmtlM3RVMWNLUWRMUEVJT0J4ZFZVbjNLWFBFZDl0MjlYQlhDbWlsQjFqWnlpcUwzdi16ZWhIbEoxeWdYdmhkSW8xQ3dTSk5EVDdlMWpQclBlelNCY0hYRGVBVnpMTmlB0gHbAUFVX3lxTE4yRkNJM0NmNXc2UmFpMHUyYUpKUGlLX09ILUNReWQ2LXRCUmpvUFQtZUxISWI4NzI0Q3RBTlFFQ1ZDd2o3OWFLSDVZSVpPQWU3cGlmY0VWZHlhY01oQnlzNmpYNHpWX3g0ajNITDU0MHNELVhiN2h4Tl9XRGFrSjNRUHRobjdjZGlpMVJsWWNZQkxCR1ZuT01OQV9XczNjYzlKYmJNRTNlNkZ4UnR6Y1g4UFZqVjE4NUdacmNIZTdQLWF2S0RKQWNSdXRwYzFMSW5Ud2pSVlFDaUY2Zw?oc=5",
+          "publishedAt": "Mon, 24 Aug 2026 15:31:11 GMT",
+          "sentiment": "positive",
+          "eventType": "producto",
+          "duration": "medium",
+          "confidence": 0.58,
+          "relevance": 1.0,
+          "novelty": 0.833,
           "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "d41c77c7c2605d240a56",
-          "firstSeenAt": "2026-08-25T04:58:39+00:00"
+          "impactWeight": 0.4833,
+          "id": "f082793270ddf194e7ea",
+          "firstSeenAt": "2026-08-24T15:44:55+00:00"
         }
       ]
     },
@@ -2045,7 +2045,7 @@
           "title": "Is Pfizer (PFE) Stock Too Pricey for Its Earnings Outlook? - simplywall.st",
           "source": "simplywall.st",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdGFQUDFPLUZZb2d5UEdQWkF3Y2pvZlBCeEphSm1rd3RKb0NacXNDQ1QxOWZ5dVU5REhDbUxIcGZibl9FLVpJeTdhRktkYlRIOXBFMDM1TkpiQlhiSUZnNXNyQmU4bzlXOHBaSFNkQ3dMcDBhRFZnOHJhUWloQkcxb09MMkM4TEJFVEdaNDlDMjIwdnVleFFZMlVwTjEwbGJGRk9wbVY4U2U3ZXkyWExxWUR0aHhrUmRRckJvRkZsN09rVXc0S2FpbFEtQkTSAdIBQVVfeXFMTlY0N3hoc3BxSmpMOVNCZFdZSkhWVG5TWWh5YVRwWEJIRndVLS1HU2FQY1lpVzVlWGxFTjNOUWl6ZjhSUzNmQUhIZFlZaWVIVnZUOEJMOVBBWXpRdWNyOHUzWEJnM1p0ckxIV0duMVhxTUdKODZxNDZSS1lsMDVmZ0QyQnRXVjVJZGJWcTNsY2tGUXVGSmc2Q0JTaU0zMTk5dFp4SDRZN0ZHZ2NhSUdPRFpzQXpLREdCcGRqc00wNkozU29MSHh0T2tlX2pZTUZuZnh3?oc=5",
-          "publishedAt": "Sun, 23 Aug 2026 15:37:07 GMT",
+          "publishedAt": "Sun, 23 Aug 2026 14:28:44 GMT",
           "sentiment": "neutral",
           "eventType": "resultados",
           "duration": "medium",
@@ -2609,42 +2609,26 @@
     },
     "HD": {
       "ticker": "HD",
-      "newsScore": 52.6,
+      "newsScore": 52.5,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 5.2,
+      "signalStrength": 5.0,
       "items": [
         {
-          "title": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance - The Home Depot",
-          "source": "The Home Depot",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1cGJkbzZfUWpYZnhaMVNvZHFlYTgwaWJNSE1CbkpjRG14cllmVkNzTFhHYnlTaS1ETS1uZlJPNzFnbXRkekhCTXBseTZIWlZiNjJ4b080dXUxdFQxTWVBLVltdFBjTk1LOTl4ZW9hTTliUQ?oc=5",
-          "publishedAt": "Tue, 18 Aug 2026 10:03:08 GMT",
+          "title": "Home Depot (HD) Stock Looks Fairly Valued After Reorganization Moves - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbzJpN050S3dHa0Y1c1BaNWVucnZERW00WmVHdUl2N2ttRkpwV09PenN3SnVaQXBvWnJ2OXdGWjhzODJndzROdzN2c0h5dlROMmp0MmhpN1FQUmUyelM5c2QtQ1FpOTlPMzc2cjlXX3dJWHZ0MUprQ0RXRE5rcHFzeXZweVVVcTkyWnFOZWpJeDZPQlYz?oc=5",
+          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
           "sentiment": "neutral",
-          "eventType": "resultados",
-          "duration": "medium",
+          "eventType": "mercado",
+          "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.85,
           "novelty": 1,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "c1dbdf3732f0a4ea39d0",
-          "firstSeenAt": "2026-08-24T22:32:17+00:00"
-        },
-        {
-          "title": "Home Depot (HD) Could Be 13% Undervalued After Q2 Earnings Beat - simplywall.st",
-          "source": "simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOak1fZ0pVSEY5RmxIdzBiaC1MYklzM2tHWjFXZFhabFU4Wms2TEFlUF9nbGg4YktDWW5iTW9wLUJaMTEwUDNRcnM2ZmJxNXZkMUJQamltM3h4XzVsRXdZblhQeTlxUmpFbGZ0aDA1bXlxQXlacl9NcUtkRVNPZGRuOEFxaERwUnJyb18xUjFHTW84RDI1bHRCdmtsSEhTRjUzcE1SMXduZ2RoYTFjUGlsNnZwTElCWlZHWmpkYlVVR3XSAcYBQVVfeXFMUEdrOFIyWTdwNHNhVm9qZEk1MTN3cU9OZ3hDdlNrVmMxdGZoZzdBcks4cFlSZEJQbFY4NFhjNGpsbjdneklnQjktbU5zOW5lb2pnb0hVOWE0NWtBdE41NDZYWlI4eEU5MGQ1QjJrNGMtMmg4T1E0TnUxZ3NHRnBTeDR6S0x2R0sxajM4S245N1ljQXAwU2hCU09vaXhxWGxnX3VBLTg5eEMyX3BJa20zd2pDb3F3MGJuNzhkT1pmaEFDWVY3SWxn?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 17:25:30 GMT",
-          "sentiment": "positive",
-          "eventType": "resultados",
-          "duration": "medium",
-          "confidence": 0.58,
-          "relevance": 0.85,
-          "novelty": 0.882,
-          "entityMatched": true,
-          "impactWeight": 0.435,
-          "id": "375bc89d9cabd61c4c49",
-          "firstSeenAt": "2026-08-24T18:03:09+00:00"
+          "id": "d087bec3dfc860d2da00",
+          "firstSeenAt": "2026-08-23T10:29:23+00:00"
         },
         {
           "title": "Bank of America resets Home Depot stock price forecast - thestreet.com",
@@ -2656,27 +2640,27 @@
           "duration": "structural",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.875,
+          "novelty": 0.833,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "f137ae1355fdbe0af00f",
           "firstSeenAt": "2026-08-25T02:44:19+00:00"
         },
         {
-          "title": "Home Depot (HD) Stock Looks Fairly Valued After Reorganization Moves - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbzJpN050S3dHa0Y1c1BaNWVucnZERW00WmVHdUl2N2ttRkpwV09PenN3SnVaQXBvWnJ2OXdGWjhzODJndzROdzN2c0h5dlROMmp0MmhpN1FQUmUyelM5c2QtQ1FpOTlPMzc2cjlXX3dJWHZ0MUprQ0RXRE5rcHFzeXZweVVVcTkyWnFOZWpJeDZPQlYz?oc=5",
-          "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
+          "title": "Home Depot (HD) Could Be 13% Undervalued After Q2 Earnings Beat - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOak1fZ0pVSEY5RmxIdzBiaC1MYklzM2tHWjFXZFhabFU4Wms2TEFlUF9nbGg4YktDWW5iTW9wLUJaMTEwUDNRcnM2ZmJxNXZkMUJQamltM3h4XzVsRXdZblhQeTlxUmpFbGZ0aDA1bXlxQXlacl9NcUtkRVNPZGRuOEFxaERwUnJyb18xUjFHTW84RDI1bHRCdmtsSEhTRjUzcE1SMXduZ2RoYTFjUGlsNnZwTElCWlZHWmpkYlVVR3XSAcYBQVVfeXFMUEdrOFIyWTdwNHNhVm9qZEk1MTN3cU9OZ3hDdlNrVmMxdGZoZzdBcks4cFlSZEJQbFY4NFhjNGpsbjdneklnQjktbU5zOW5lb2pnb0hVOWE0NWtBdE41NDZYWlI4eEU5MGQ1QjJrNGMtMmg4T1E0TnUxZ3NHRnBTeDR6S0x2R0sxajM4S245N1ljQXAwU2hCU09vaXhxWGxnX3VBLTg5eEMyX3BJa20zd2pDb3F3MGJuNzhkT1pmaEFDWVY3SWxn?oc=5",
+          "publishedAt": "Mon, 24 Aug 2026 17:25:30 GMT",
+          "sentiment": "positive",
+          "eventType": "resultados",
+          "duration": "medium",
+          "confidence": 0.58,
           "relevance": 0.85,
           "novelty": 0.812,
           "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "d087bec3dfc860d2da00",
-          "firstSeenAt": "2026-08-23T10:29:23+00:00"
+          "impactWeight": 0.4006,
+          "id": "375bc89d9cabd61c4c49",
+          "firstSeenAt": "2026-08-24T18:03:09+00:00"
         },
         {
           "title": "The Home Depot Expands Fastest Fulfillment in Home Improvement with Nationwide Express Delivery - The Home Depot",
@@ -2688,9 +2672,9 @@
           "duration": "temporary",
           "confidence": 0.58,
           "relevance": 0.85,
-          "novelty": 0.842,
+          "novelty": 0.882,
           "entityMatched": true,
-          "impactWeight": 0.4152,
+          "impactWeight": 0.435,
           "id": "f7c84ad512864fe09765",
           "firstSeenAt": "2026-08-25T03:31:00+00:00"
         },
@@ -2741,16 +2725,48 @@
           "impactWeight": 0.0,
           "id": "521daaecbe0e5ef81792",
           "firstSeenAt": "2026-08-24T13:59:54+00:00"
+        },
+        {
+          "title": "Do Wall Street Analysts Like Home Depot Stock? - Barchart.com",
+          "source": "Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1HeXhvWU94UlJ6VDNwX21rZjNhSTdacnZKOFNXOGNkYXpra2FNeDBtZFY0TzQ3V0hEclBzNzdzMmQzQ01lYVphMkFEQktBRW1xTmtrMmtWa3M0VGtrOEVWSDNJdGhSZDZLcFJvSVpOdVh1OHlfZmM2eXV4WkVmVnY1bTZMaEZXZUVZU3FvVk5MYWM?oc=5",
+          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.733,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "55831934a15c326702e8",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
     "MCD": {
       "ticker": "MCD",
-      "newsScore": 54.8,
+      "newsScore": 52.4,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 9.6,
+      "signalStrength": 4.7,
       "items": [
+        {
+          "title": "Ames National Corp Makes New $1.17 Million Investment in McDonald's Corporation $MCD - MarketBeat",
+          "source": "MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRTN1LUtYRTg2dUVIUHFWeVZ3YlByOGF4aVowWDB5RGFVSFlkZVJNRnFTRVJmazhyaGV2cWhIYXotbzlabTB5YmZkdWhWaVd3Sy1XdlhXbC1DU29aNjZJSWQwT2JfaUh2ZkhyYzdXOFBmVGhKMllMODhwVWVVZXhiVFRHSjRJQnZDQ01QTGlFVkFucnhVVlRtTFFUNU5CMFRHeXE0THFZUDZuUk5UVDVuYjh1TmExeGRnZEs1US1SazcyT2tHOUJ5d0RFRE5TUHBERnBHM1JoQm8?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 07:17:02 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 1,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "dc4c103f57631e997a2f",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
         {
           "title": "McDonald's (MCD) Enters Energy Drinks Following Red Bull Launch As Fair Value Questions Linger - simplywall.st",
           "source": "simplywall.st",
@@ -2761,9 +2777,9 @@
           "duration": "medium",
           "confidence": 0.58,
           "relevance": 0.85,
-          "novelty": 1,
+          "novelty": 0.913,
           "entityMatched": true,
-          "impactWeight": 0.493,
+          "impactWeight": 0.4501,
           "id": "6eb0921bcc52d5574257",
           "firstSeenAt": "2026-08-24T17:00:20+00:00"
         },
@@ -2793,7 +2809,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.957,
+          "novelty": 0.952,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "45d02499cb8d5b27022b",
@@ -2841,7 +2857,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.95,
+          "novelty": 0.905,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "8bdf5c77801f875be1d7",
@@ -2862,22 +2878,6 @@
           "impactWeight": 0.0,
           "id": "c09546e94dfe428d7be1",
           "firstSeenAt": "2026-08-21T18:45:28+00:00"
-        },
-        {
-          "title": "McDonald’s (MCD) Stock Looks Fairly Valued Despite Slowing U.S. Sales Growth - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTHE4UThiVXdXWDh2Y3FxTGF4M1FRc2t3a3VzdEZweVpQcFRFZGdkMDVWWmc3SzdMRXQwbFBlbDdsMGZLMEhmZ21iZkljSFBrNFFNdV9yXzI3bXhkU2ZhSFZTdy1fTE9MMVlmTFVpMkptbjV2SDluaG94OURBd2RRY1dEZ1d4VE1tcGdWOHZzWnFPLTc0dk16UjZzdTc?oc=5",
-          "publishedAt": "Sun, 16 Aug 2026 07:00:00 GMT",
-          "sentiment": "positive",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.58,
-          "relevance": 0.85,
-          "novelty": 0.864,
-          "entityMatched": true,
-          "impactWeight": 0.4258,
-          "id": "530a324a8d372bb241cf",
-          "firstSeenAt": "2026-08-25T06:03:36+00:00"
         }
       ]
     },
@@ -2924,7 +2924,7 @@
           "title": "Target, Starbucks and Nike are writing the 2026 turnaround playbook. Here are the key lessons - Fortune",
           "source": "Fortune",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSVBybmFqY2ZlNUNIbS1qMDdZZ1NiQjhObGJsM25qeDF4RlRLUGprZlQ4VWFXelJ5amczU1lXWUxnNThmUkJNanJoZFJXZmFoMk9YTmtjcDdEODllcm1KaUtTejBHckxTQTRRS0dMNGVtMzVrSUhRanZwM1RYYzQ0NldyQkRXaFlhUzFNMHUtdw?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 10:00:00 GMT",
+          "publishedAt": "Mon, 24 Aug 2026 10:05:46 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
@@ -3638,6 +3638,38 @@
           "firstSeenAt": "2026-08-25T03:31:00+00:00"
         },
         {
+          "title": "Nancy Pelosi purchases Bloom Energy and Intel stocks, invests in luxury hotel property By Investing.com - Investing.com",
+          "source": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWlhyWE5FVU94SmxuM1NQWEpjdENULU9jMXRfRjFWNFlnT3diZXhhZng4R05JeFAwZGVsako5ZVBpWnZIbjB3WWtyN3luMUdhc28yVGRJUzZUdGlVbnpOeU9waHRFZ3gwY0QzOXhrYUI4ck5EWE9lZEVZX2ZWUXczalVtMFNnZlZiV19wVkhOTU1mVGt1UU14alkzelhOVXFTUlptVlROV1pvR2JNOW5EWWdKczNzMlRBNHMxbGZUUWlraTZXYkgySmhENUxJRi1EMkd1MHdiX1dmQQ?oc=5",
+          "publishedAt": "Mon, 24 Aug 2026 23:12:51 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.923,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "93f6c6fa447579358cb3",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
+          "title": "INTC Stock Has Surged 233% This Year — HSBC Sees Another 60% Upside As Foundry Business Becomes 'Too Good to Ignore' - Stocktwits",
+          "source": "Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTXQtRnU2OTdPNURnU29RcW9ReTNLSTd2X1VfdDJYaVpidWQxSzJXRTVNc0gxVjhGQWNWcEVMeEtjQVVMcTMtSlZUYkdoMWVzVWVsVTVGdVdSclJ5Y1UwMUNzeXRKYjdBX21ZYWpJaklOdmppV05mcS1kaGJYZ3B5TFRfcm14QnM0UG1malhFcFRBcTRhY3NyOWlJQlFkNU4tTUNWdVRIS0F3N3hDSkRmc0xBa2Ixa1huTGVmSm04bktabGNxNGs5ekhCR29jZw?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 00:28:40 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.933,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "b2f9a409bb9313dcb42a",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
           "title": "Intel Corp Stock (INTC) Opened Down by 4.60% on Aug 24: What Investors Need To Know - TradingKey",
           "source": "TradingKey",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdFQ4bnZkNlNKSllFM3RucVpoajJCU1NsR1ZYUUVxbThsR3ZNNFN3Vkx4alJ1MnR1ZWE4Z1FWODIxbTdZQ0VVQ0ZWM3FyaGNvQWczTEFJYW0wZWJ1V01ESzIzSHV4LVdrVWpINVk5d2FZVE9YOE14X1p1R3M0TGNQWEVoOUNzUFJWT08w?oc=5",
@@ -3663,43 +3695,11 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.87,
+          "novelty": 0.762,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "85ead3eea8a908bda4d2",
           "firstSeenAt": "2026-08-25T05:36:33+00:00"
-        },
-        {
-          "title": "Nancy Pelosi Discloses First-Ever Bloom Energy Trade, Adds to Intel Bet Amid AI Power Boom - Quiver Quantitative",
-          "source": "Quiver Quantitative",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOamlNUk9GMV82Z1hGX3JWMFJudXBidEszb1pKTkg3T2xUdU4wTUQ1RVo4bU0yOHpOSG1GZk5VSm44eWdNVVNFNUJOSXpYck5QTVFrWmZfc19CZVkxV2gwVTRCTlhaRS1RSXNCanNPR1JJd2pWLVFKdFVMV05oVE1KTVFCejBXRXRZRW9rMVJNXy1veHNRejlqNVZHQklpdXEyUEZZeng2TDNma3dvb1ZoejVmTzF1d21SWXJPRWg2QTZMTEE?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 13:36:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.727,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "b2993dc513ea29006086",
-          "firstSeenAt": "2026-08-24T14:48:46+00:00"
-        },
-        {
-          "title": "Intel Stock Has Soared 140% YTD. The Next Catalyst May Be Hiding in GPU Prices. - Barchart.com",
-          "source": "Barchart.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZkNCWjFLVDZZNWlWNEdRWWV4UFNZZDd6NXdMZm1uc0Q1eFJyZ2FMcWJXMVZLdDY5TkJ1bF9RSGZkMk5kbS10THJoMzcyQkpPWUlRVlpVNnFMSGlQMWVQWGk2ZUV6Q2hjRmFKX1FzUGtUeWZ0cjJQd09VV1BtUHVpMTdfMzdQUTFhRXFOYy1XT2hSNENTbmVPUFRORlVldmFJU0t3M0piSmt0WnFTOGRBUE1uR19OaTV0QkNxQQ?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 13:56:10 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.895,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "52b8a6e5e5cb26b1255f",
-          "firstSeenAt": "2026-08-25T04:22:06+00:00"
         }
       ]
     },
@@ -3791,6 +3791,22 @@
           "firstSeenAt": "2026-08-24T08:25:24+00:00"
         },
         {
+          "title": "Oracle Stock Drop: Why ORCL Hits $142 and What Comes Next for AI - EBC Financial Group",
+          "source": "EBC Financial Group",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUFFIb1hBWjFTUlR3UDl2VDd1VGV2dTR2ckZPY2JEWG1jcU15ZlNQSmpNcGVraUluSEZEN29lME1EdGZ3LU0tcm9CRjc0U2hQRF9nVlExVDBRcUFTRHh3bzNsdXRXZFNCSzc2N0I1dTZJejlxVnhLMXlpV0hFOXRoOXBfTzY0eGVLd2Fua3lZak9Ndw?oc=5",
+          "publishedAt": "Tue, 25 Aug 2026 03:23:34 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.85,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "226208f3848b8e9a1447",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
+        },
+        {
           "title": "U.S. Stocks Move | Oracle (ORCL.US) Rises Over 7% After Announcing Expanded Collaboration with Google Cloud - Moomoo",
           "source": "Moomoo",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJhQUswbXNZbUZGcHE0Z2J2aDFxZVc1dFRWQ2xjb05lMl9sUUVmbXVsQmdMUGFFSF9yaDVwSERoU3o3WGpySEpfTnFLcmk5NWw2X2dvdXlJXzZmQ2pQNWllZkg0cUJSWXBoYmtSUjJ3UWxLTTRJMURtZ0NPMnc5Nnktazhxd2pOVFNmTnN0dzRzSm5heUxjRERLUGZXdjZzb2c?oc=5",
@@ -3816,27 +3832,11 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.846,
+          "novelty": 0.842,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "4fccb9e5eb278f7cb5c9",
           "firstSeenAt": "2026-08-25T06:03:36+00:00"
-        },
-        {
-          "title": "Oracle Corp Stock (ORCL) Moved Down by 3.16% on Aug 24: What Signal Does It Send? - TradingKey",
-          "source": "TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZl9QZVVEdktXWU5Yc1RWOWpsZHdFVTgwMUN6XzVOcEtvLXBVX0pzcWgwQk9jQnQzR1NEQm1OT2wzQnZWb3NVVk5EMUJGdTd2Unh2SkpPbUpNRVdfT1lkVjJPSFN3QzhvMi1UZFlldG5oRUpLXzE5Zm5kbTREc2tjSjdERjhsaHdISGtn?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 14:15:26 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.812,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "2978783211f9898127d4",
-          "firstSeenAt": "2026-08-25T02:44:19+00:00"
         }
       ]
     },
@@ -4081,22 +4081,6 @@
           "firstSeenAt": "2026-08-25T04:22:06+00:00"
         },
         {
-          "title": "Prediction: Adobe Stock Will Hit $300 on This Date - 24/7 Wall St.",
-          "source": "24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR0M4Y2pIa2ttdlFsMF9ObXlsSkFCUVJPVHB1ZEdUelpYYWY1WVlVOFJaMDFFNUVoNXJUUVgwbjRTZEtlVF82RGF1YUdYR05nN2VQaG9WdjQ0U3RfNEEwdnYyMUFaWmhzT2FocDZjN3B6YUsyRHNvWW5FSnUyMUl3eUNPdVN0bm9ST1FCRnBDQnViTHRBMVRF?oc=5",
-          "publishedAt": "Thu, 06 Aug 2026 07:00:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.889,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "5c913364297b9d6e8464",
-          "firstSeenAt": "2026-08-25T05:36:33+00:00"
-        },
-        {
           "title": "Outer Bio Launches Yuna Platform for Ex Vivo Skin Samples - Cosmetics & Toiletries",
           "source": "Cosmetics & Toiletries",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOenhUOGxOdzlNSGJ0M1ZkSTY4Y2lHOGNGb3pzY2R4bjk0UkZkdkM4OUd0RVItVzZvRndmcmNIQVQyTDZna0RlRmt1MkJXMzlndFF5cVlnbzJWM3JkaEhkRWYya3dVaVlxa0hZSy1MWHRtRlRnQUhqTTVyVkpUOURzVWNuZ1pBRXNZUFpOd1o2bTFBRTFrTTlDSGlDUnNFazJHc3o3TV9reEttcmJGUnNjS242cm93VFFINEJiZ3FBeC1pcVItWjJCOHZtS1dwQ3hZZmZmRDJVeS1idw?oc=5",
@@ -4111,6 +4095,22 @@
           "impactWeight": 0.0,
           "id": "6b994fb9bf9e3de54af8",
           "firstSeenAt": "2026-08-24T20:01:21+00:00"
+        },
+        {
+          "title": "Adobe Stock Looks Cheap for a Reason. Here’s Why I’m Buying. - 24/7 Wall St.",
+          "source": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSi1meTVuaVE2TS15QXVLVHBWckhMaHh0MnEwYnFNMm9WaGJ3WVF6eHM3UG1iRTY2TlZZeTRReEt3TU9XQlctMURua0Q5SktXdWY3QWpSazhnMjBsekI2bTk2MTgydTBmcm93aUJNUXE0YmZkMURnQTNwWVZMMWVBVnZMbEVNZFBFb284anhHTy11U0RCbGxVR2VBWmY4d2N0bmc?oc=5",
+          "publishedAt": "Sat, 22 Aug 2026 16:10:40 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.895,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "3bb134ca5545a923913f",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
@@ -4371,20 +4371,20 @@
           "firstSeenAt": "2026-08-24T21:04:27+00:00"
         },
         {
-          "title": "Netflix may make the Tudum a little more crowded (NFLX:NASDAQ) - Seeking Alpha",
-          "source": "Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWNELVBLNXFmdXBOU3BkVC02RjE5UmwtV3czWHN3c1Q3QW44UXJ0blVZOXFnOWZXaTBuVXhRcWVaNG8zWjJLckxMb25oUXhFOV9YdXF3NkxIMDhGRklweWpnSzFXTENpS2w0T1A3bW9JQXlvUmkxTE9oNGpMcXZXX1prVHo1aURQMEtJVXIzUQ?oc=5",
-          "publishedAt": "Mon, 24 Aug 2026 15:39:49 GMT",
+          "title": "Netflix (NFLX) Stock Looks Below Fair Value On Cash Flow And Earnings - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMHpnZ3ViYmFGR2tDc3lSZ2Z1TmZaNWNqSVl2ajRNUG1Cckktci14Uk9yS1ZiRERlYk42RFM2clBuOFBDUEVQQjBrSW5sbFRDRkp3cDNHS0E5S2F1SUh5cU55WFBwSktsaG9GdW8xbGlQM3ZoVTAzdC1kV1dFVGtSREFxVjJ3Z0trRmtYblRGZ3V1N3kySUVhWFJPQXdNTjdfaEN2MVo0MDRWQl9JclZBNEhCRHVMWGJhVjFkOTdmOUYydXhFUHfSAcYBQVVfeXFMTzB6Z2d1YmJhRkdrQ3N5UmdmdU5mWjVjaklZdmo0TVBtQnJJLXIteFJPcktWYkREZWJONkRTNnJQbjhQQ1BFUEIwa0lubGxUQ0ZKd3AzR0tBOUthdUlIeXFOeVhQcEpLbGhvRnVvMWxpUDN2aFUwM3QtZFdXRVRrUkRBcVYyd2dLa0ZrWG5URmd1dTd5MklFYVhST0F3TU43X2hDdjFaNDA0VkJfSXJWQTRIQkR1TFhiYVYxZDk3ZjlGMnV4RVB3?oc=5",
+          "publishedAt": "Sat, 22 Aug 2026 21:21:41 GMT",
           "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
+          "eventType": "resultados",
+          "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.85,
           "novelty": 0.85,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "af2d5ff98d1d1153a10f",
-          "firstSeenAt": "2026-08-25T05:36:33+00:00"
+          "id": "42ba6d1c964a74a25a6f",
+          "firstSeenAt": "2026-08-25T07:49:28+00:00"
         }
       ]
     },
