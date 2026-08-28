@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:23:55+00:00",
+  "generatedAt": "2026-08-28T06:12:28+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
@@ -10,57 +10,57 @@
     "providerErrors": 0
   },
   "featureDrift": {
-    "maximumAbsoluteShift": 0.83147,
+    "maximumAbsoluteShift": 0.60303,
     "thresholdWarning": 2.0,
     "thresholdCritical": 3.0,
     "topShifts": [
       {
         "feature": "spy_ret_20",
-        "referenceMean": 0.01178919,
-        "latestMean": 0.05020151,
-        "standardizedShift": 0.83147
+        "referenceMean": 0.0117997,
+        "latestMean": 0.03965265,
+        "standardizedShift": 0.60303
       },
       {
         "feature": "beta_60",
-        "referenceMean": 1.09021368,
-        "latestMean": 0.77055885,
-        "standardizedShift": -0.59794
-      },
-      {
-        "feature": "vol_60",
-        "referenceMean": 0.30262055,
-        "latestMean": 0.37851413,
-        "standardizedShift": 0.48301
+        "referenceMean": 1.09019558,
+        "latestMean": 0.7723783,
+        "standardizedShift": -0.59429
       },
       {
         "feature": "spy_sma_200_ratio",
-        "referenceMean": 0.05335441,
-        "latestMean": 0.08444262,
-        "standardizedShift": 0.44473
+        "referenceMean": 0.05338623,
+        "latestMean": 0.09073316,
+        "standardizedShift": 0.53431
+      },
+      {
+        "feature": "vol_60",
+        "referenceMean": 0.30263232,
+        "latestMean": 0.3852347,
+        "standardizedShift": 0.52574
       },
       {
         "feature": "drawdown_252",
-        "referenceMean": -0.11749608,
-        "latestMean": -0.16604349,
-        "standardizedShift": -0.38104
-      },
-      {
-        "feature": "vol_20",
-        "referenceMean": 0.29119002,
-        "latestMean": 0.35766538,
-        "standardizedShift": 0.37513
+        "referenceMean": -0.1174884,
+        "latestMean": -0.16286141,
+        "standardizedShift": -0.35613
       },
       {
         "feature": "ret_20",
-        "referenceMean": 0.01807021,
-        "latestMean": 0.05133557,
-        "standardizedShift": 0.35268
+        "referenceMean": 0.01807629,
+        "latestMean": 0.04842851,
+        "standardizedShift": 0.3218
+      },
+      {
+        "feature": "vol_20",
+        "referenceMean": 0.29121571,
+        "latestMean": 0.34775556,
+        "standardizedShift": 0.31904
       },
       {
         "feature": "volume_z_20",
-        "referenceMean": 0.00301505,
-        "latestMean": -0.35370948,
-        "standardizedShift": -0.33796
+        "referenceMean": 0.00276617,
+        "latestMean": 0.33628224,
+        "standardizedShift": 0.31602
       }
     ]
   },

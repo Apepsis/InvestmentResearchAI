@@ -1,12 +1,30 @@
 {
-  "generatedAt": "2026-08-27T03:23:55+00:00",
+  "generatedAt": "2026-08-28T06:12:29+00:00",
   "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
-  "candidates": [],
-  "pendingAfterCooldown": 0,
-  "history": [],
+  "newAlertsSent": 1,
+  "candidates": [
+    {
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260602-regularized-45ecf794a4 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
+    }
+  ],
+  "pendingAfterCooldown": 1,
+  "history": [
+    {
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "ticker": null,
+      "severity": "info",
+      "sentAt": "2026-08-28T06:12:29+00:00"
+    }
+  ],
   "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
