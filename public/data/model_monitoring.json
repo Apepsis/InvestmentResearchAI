@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-29T03:45:53+00:00",
+  "generatedAt": "2026-08-30T00:27:07+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
     "predictionCoverage": 1.0,
     "predictionsPublished": 96,
     "predictionsExpected": 96,
-    "marketDataAgeHours": 0.015,
+    "marketDataAgeHours": 0.018,
     "providerErrors": 0
   },
   "featureDrift": {
@@ -16,7 +16,7 @@
     "topShifts": [
       {
         "feature": "beta_60",
-        "referenceMean": 1.090172,
+        "referenceMean": 1.09017235,
         "latestMean": 0.77191217,
         "standardizedShift": -0.59491
       },
@@ -35,8 +35,8 @@
       {
         "feature": "volume_z_20",
         "referenceMean": 0.0023599,
-        "latestMean": -0.48801628,
-        "standardizedShift": -0.46467
+        "latestMean": -0.46324271,
+        "standardizedShift": -0.4412
       },
       {
         "feature": "spy_ret_20",
@@ -47,7 +47,7 @@
       {
         "feature": "drawdown_252",
         "referenceMean": -0.1174817,
-        "latestMean": -0.15910321,
+        "latestMean": -0.15910322,
         "standardizedShift": -0.32669
       },
       {
