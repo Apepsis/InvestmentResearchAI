@@ -1,22 +1,25 @@
 {
-  "generatedAt": "2026-09-03T00:22:54+00:00",
-  "mode": "live",
+  "generatedAt": "2026-09-03T16:55:29+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 1,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260605-regularized-ea508abfad aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "73521038eb1633d4997b",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "ORCL",
+      "title": "Subida extraordinaria para revisar: ORCL",
+      "message": "ORCL registra +8.93% desde la referencia diaria (141.32 → 153.94 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 153.94,
+      "referencePrice": 141.32,
+      "change": 0.08930088
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 1,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -24,7 +27,16 @@
       "ticker": null,
       "severity": "info",
       "sentAt": "2026-08-28T06:12:29+00:00"
+    },
+    {
+      "fingerprint": "73521038eb1633d4997b",
+      "code": "intraday_price_surge",
+      "ticker": "ORCL",
+      "severity": "warning",
+      "sentAt": "2026-09-03T16:55:29+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
