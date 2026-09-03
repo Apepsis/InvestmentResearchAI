@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:21:07.780195+00:00",
+  "generatedAt": "2026-09-03T00:22:36.422293+00:00",
   "mode": "live",
   "modelVersion": "transparent-research-v5.0",
   "horizons": [
@@ -8940,35 +8940,35 @@
   ],
   "modelFits": {
     "5": {
-      "trainStart": "2017-06-20",
+      "trainStart": "2017-06-21",
       "trainEnd": "2024-10-18",
       "calibrationStart": "2024-10-21",
       "calibrationEnd": "2026-08-25",
-      "trainingRows": 58398,
-      "calibrationRows": 14773,
+      "trainingRows": 58367,
+      "calibrationRows": 14778,
       "brierScoreCalibration": 0.250201
     },
     "20": {
-      "trainStart": "2017-06-20",
+      "trainStart": "2017-06-21",
       "trainEnd": "2024-10-02",
       "calibrationStart": "2024-10-03",
       "calibrationEnd": "2026-08-04",
-      "trainingRows": 58014,
-      "calibrationRows": 14677,
-      "brierScoreCalibration": 0.250266
+      "trainingRows": 57983,
+      "calibrationRows": 14682,
+      "brierScoreCalibration": 0.250267
     },
     "60": {
-      "trainStart": "2017-06-20",
+      "trainStart": "2017-06-21",
       "trainEnd": "2024-08-16",
       "calibrationStart": "2024-08-19",
       "calibrationEnd": "2026-06-05",
-      "trainingRows": 56990,
-      "calibrationRows": 14421,
-      "brierScoreCalibration": 0.248427
+      "trainingRows": 56959,
+      "calibrationRows": 14426,
+      "brierScoreCalibration": 0.248452
     }
   },
   "rerunPolicy": {
-    "reusedPublications": 0,
+    "reusedPublications": 96,
     "rule": "La primera predicción publicada para cada fecha, activo, horizonte y versión permanece congelada en reruns."
   },
   "limitations": [
