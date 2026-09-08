@@ -1,22 +1,25 @@
 {
-  "generatedAt": "2026-09-08T00:30:47+00:00",
-  "mode": "live",
+  "generatedAt": "2026-09-08T17:03:33+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 1,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260610-regularized-72c05f2174 aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "INTC",
+      "title": "Subida extraordinaria para revisar: INTC",
+      "message": "INTC registra +10.24% desde la referencia diaria (95.80 → 105.61 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 105.61,
+      "referencePrice": 95.8,
+      "change": 0.10240084
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 1,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -40,7 +43,16 @@
       "severity": "warning",
       "sentAt": "2026-09-04T16:43:29+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "ticker": "INTC",
+      "severity": "warning",
+      "sentAt": "2026-09-08T17:03:33+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
