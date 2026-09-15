@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T00:17:11.452618+00:00",
+  "generatedAt": "2026-09-15T00:43:05.912025+00:00",
   "mode": "live",
   "modelVersion": "transparent-research-v5.0",
   "horizons": [
@@ -8940,31 +8940,31 @@
   ],
   "modelFits": {
     "5": {
-      "trainStart": "2017-06-27",
+      "trainStart": "2017-06-30",
       "trainEnd": "2024-10-29",
       "calibrationStart": "2024-10-30",
       "calibrationEnd": "2026-09-03",
-      "trainingRows": 58467,
+      "trainingRows": 58374,
       "calibrationRows": 14784,
-      "brierScoreCalibration": 0.250176
+      "brierScoreCalibration": 0.250178
     },
     "20": {
-      "trainStart": "2017-06-27",
+      "trainStart": "2017-06-30",
       "trainEnd": "2024-10-11",
       "calibrationStart": "2024-10-14",
       "calibrationEnd": "2026-08-13",
-      "trainingRows": 58083,
+      "trainingRows": 57990,
       "calibrationRows": 14688,
       "brierScoreCalibration": 0.250299
     },
     "60": {
-      "trainStart": "2017-06-27",
+      "trainStart": "2017-06-30",
       "trainEnd": "2024-08-27",
       "calibrationStart": "2024-08-28",
       "calibrationEnd": "2026-06-16",
-      "trainingRows": 57059,
+      "trainingRows": 56966,
       "calibrationRows": 14432,
-      "brierScoreCalibration": 0.248647
+      "brierScoreCalibration": 0.24865
     }
   },
   "rerunPolicy": {

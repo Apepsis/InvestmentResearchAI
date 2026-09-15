@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-09-14T00:17:34+00:00",
+  "generatedAt": "2026-09-15T00:43:13+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
     "predictionCoverage": 1.0,
     "predictionsPublished": 96,
     "predictionsExpected": 96,
-    "marketDataAgeHours": 0.016,
+    "marketDataAgeHours": 0.009,
     "providerErrors": 0
   },
   "featureDrift": {
-    "maximumAbsoluteShift": 0.63791,
+    "maximumAbsoluteShift": 0.63764,
     "thresholdWarning": 2.0,
     "thresholdCritical": 3.0,
     "topShifts": [
       {
         "feature": "spy_ret_20",
-        "referenceMean": 0.0120113,
+        "referenceMean": 0.01202023,
         "latestMean": -0.0174706,
-        "standardizedShift": -0.63791
+        "standardizedShift": -0.63764
       },
       {
         "feature": "beta_60",
-        "referenceMean": 1.0903016,
+        "referenceMean": 1.09031871,
         "latestMean": 0.77942565,
-        "standardizedShift": -0.57824
+        "standardizedShift": -0.57799
       },
       {
         "feature": "vol_60",
-        "referenceMean": 0.30296633,
+        "referenceMean": 0.30305516,
         "latestMean": 0.36817337,
-        "standardizedShift": 0.41503
+        "standardizedShift": 0.4144
       },
       {
         "feature": "ret_5",
-        "referenceMean": 0.0045219,
+        "referenceMean": 0.0045143,
         "latestMean": -0.01459454,
-        "standardizedShift": -0.40858
+        "standardizedShift": -0.40822
       },
       {
         "feature": "spy_vol_60",
-        "referenceMean": 0.1580769,
+        "referenceMean": 0.15817256,
         "latestMean": 0.11890434,
-        "standardizedShift": -0.40549
+        "standardizedShift": -0.40631
       },
       {
         "feature": "drawdown_252",
-        "referenceMean": -0.11772894,
-        "latestMean": -0.16492346,
-        "standardizedShift": -0.36986
+        "referenceMean": -0.11782854,
+        "latestMean": -0.16492345,
+        "standardizedShift": -0.36892
       },
       {
         "feature": "rsi_14",
-        "referenceMean": 0.53434999,
+        "referenceMean": 0.53573791,
         "latestMean": 0.49124009,
-        "standardizedShift": -0.34043
+        "standardizedShift": -0.35287
       },
       {
         "feature": "spy_sma_200_ratio",
-        "referenceMean": 0.05346672,
-        "latestMean": 0.07335381,
-        "standardizedShift": 0.28446
+        "referenceMean": 0.05344467,
+        "latestMean": 0.0733538,
+        "standardizedShift": 0.28455
       }
     ]
   },
