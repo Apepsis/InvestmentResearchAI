@@ -1,22 +1,25 @@
 {
-  "generatedAt": "2026-09-15T00:43:14+00:00",
-  "mode": "live",
+  "generatedAt": "2026-09-15T17:28:08+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 1,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260616-regularized-cda45fb0e9 aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "7894672302052161cd67",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "GS",
+      "title": "Caída extraordinaria para revisar: GS",
+      "message": "GS registra -6.78% desde la referencia diaria (1029.18 → 959.42 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 959.42,
+      "referencePrice": 1029.18,
+      "change": -0.06778212
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 1,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -64,7 +67,16 @@
       "severity": "warning",
       "sentAt": "2026-09-09T17:01:32+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "7894672302052161cd67",
+      "code": "intraday_price_drop",
+      "ticker": "GS",
+      "severity": "critical",
+      "sentAt": "2026-09-15T17:28:08+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
