@@ -1,22 +1,37 @@
 {
-  "generatedAt": "2026-09-17T00:39:11+00:00",
-  "mode": "live",
+  "generatedAt": "2026-09-17T17:27:24+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 2,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260618-regularized-fd1909a9cb aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "INTC",
+      "title": "Subida extraordinaria para revisar: INTC",
+      "message": "INTC registra +14.32% desde la referencia diaria (97.14 → 111.06 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 111.055,
+      "referencePrice": 97.14,
+      "change": 0.14324686
+    },
+    {
+      "fingerprint": "9e308cebf10a155b5545",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "AMD",
+      "title": "Subida extraordinaria para revisar: AMD",
+      "message": "AMD registra +8.73% desde la referencia diaria (504.20 → 548.21 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 548.21,
+      "referencePrice": 504.2,
+      "change": 0.08728679
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 2,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -72,7 +87,24 @@
       "severity": "critical",
       "sentAt": "2026-09-15T17:28:08+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "ticker": "INTC",
+      "severity": "warning",
+      "sentAt": "2026-09-17T17:27:24+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "9e308cebf10a155b5545",
+      "code": "intraday_price_surge",
+      "ticker": "AMD",
+      "severity": "warning",
+      "sentAt": "2026-09-17T17:27:24+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
