@@ -1,22 +1,49 @@
 {
-  "generatedAt": "2026-09-21T00:20:35+00:00",
-  "mode": "live",
+  "generatedAt": "2026-09-21T18:27:38+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 3,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260624-regularized-f0a4c0c52f aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "34139535b59852e6ea7b",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "META",
+      "title": "Subida extraordinaria para revisar: META",
+      "message": "META registra +12.41% desde la referencia diaria (665.75 → 748.36 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 748.36,
+      "referencePrice": 665.75,
+      "change": 0.12408562
+    },
+    {
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "INTC",
+      "title": "Subida extraordinaria para revisar: INTC",
+      "message": "INTC registra +11.87% desde la referencia diaria (108.60 → 121.49 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 121.49,
+      "referencePrice": 108.6,
+      "change": 0.11869245
+    },
+    {
+      "fingerprint": "9e308cebf10a155b5545",
+      "code": "intraday_price_surge",
+      "severity": "warning",
+      "ticker": "AMD",
+      "title": "Subida extraordinaria para revisar: AMD",
+      "message": "AMD registra +8.85% desde la referencia diaria (559.82 → 609.34 USD). Comprobar si existe evento material y riesgo de reversión.",
+      "cooldownHours": 4,
+      "observedPrice": 609.34,
+      "referencePrice": 559.82,
+      "change": 0.088457
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 3,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -88,7 +115,32 @@
       "severity": "warning",
       "sentAt": "2026-09-17T17:27:24+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "34139535b59852e6ea7b",
+      "code": "intraday_price_surge",
+      "ticker": "META",
+      "severity": "warning",
+      "sentAt": "2026-09-21T18:27:38+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "0b950a4f90d8812f9daf",
+      "code": "intraday_price_surge",
+      "ticker": "INTC",
+      "severity": "warning",
+      "sentAt": "2026-09-21T18:27:38+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "9e308cebf10a155b5545",
+      "code": "intraday_price_surge",
+      "ticker": "AMD",
+      "severity": "warning",
+      "sentAt": "2026-09-21T18:27:38+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
