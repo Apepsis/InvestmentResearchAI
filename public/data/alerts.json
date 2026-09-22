@@ -1,49 +1,22 @@
 {
-  "generatedAt": "2026-09-21T18:27:38+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-09-22T00:55:32+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 3,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "34139535b59852e6ea7b",
-      "code": "intraday_price_surge",
-      "severity": "warning",
-      "ticker": "META",
-      "title": "Subida extraordinaria para revisar: META",
-      "message": "META registra +12.41% desde la referencia diaria (665.75 → 748.36 USD). Comprobar si existe evento material y riesgo de reversión.",
-      "cooldownHours": 4,
-      "observedPrice": 748.36,
-      "referencePrice": 665.75,
-      "change": 0.12408562
-    },
-    {
-      "fingerprint": "0b950a4f90d8812f9daf",
-      "code": "intraday_price_surge",
-      "severity": "warning",
-      "ticker": "INTC",
-      "title": "Subida extraordinaria para revisar: INTC",
-      "message": "INTC registra +11.87% desde la referencia diaria (108.60 → 121.49 USD). Comprobar si existe evento material y riesgo de reversión.",
-      "cooldownHours": 4,
-      "observedPrice": 121.49,
-      "referencePrice": 108.6,
-      "change": 0.11869245
-    },
-    {
-      "fingerprint": "9e308cebf10a155b5545",
-      "code": "intraday_price_surge",
-      "severity": "warning",
-      "ticker": "AMD",
-      "title": "Subida extraordinaria para revisar: AMD",
-      "message": "AMD registra +8.85% desde la referencia diaria (559.82 → 609.34 USD). Comprobar si existe evento material y riesgo de reversión.",
-      "cooldownHours": 4,
-      "observedPrice": 609.34,
-      "referencePrice": 559.82,
-      "change": 0.088457
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260624-regularized-be5f975752 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 3,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -141,6 +114,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
