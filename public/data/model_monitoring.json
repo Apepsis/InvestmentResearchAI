@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-09-29T02:04:39+00:00",
+  "generatedAt": "2026-09-30T01:22:03+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
     "predictionCoverage": 1.0,
     "predictionsPublished": 96,
     "predictionsExpected": 96,
-    "marketDataAgeHours": 0.012,
+    "marketDataAgeHours": 0.017,
     "providerErrors": 0
   },
   "featureDrift": {
-    "maximumAbsoluteShift": 0.57467,
+    "maximumAbsoluteShift": 0.56141,
     "thresholdWarning": 2.0,
     "thresholdCritical": 3.0,
     "topShifts": [
       {
         "feature": "rsi_14",
-        "referenceMean": 0.53778314,
+        "referenceMean": 0.53606341,
         "latestMean": 0.46531854,
-        "standardizedShift": -0.57467
+        "standardizedShift": -0.56141
       },
       {
         "feature": "ret_5",
-        "referenceMean": 0.00460474,
+        "referenceMean": 0.00460009,
         "latestMean": -0.01791262,
-        "standardizedShift": -0.48029
+        "standardizedShift": -0.4801
       },
       {
         "feature": "spy_vol_60",
-        "referenceMean": 0.1585143,
+        "referenceMean": 0.15855036,
         "latestMean": 0.11311315,
-        "standardizedShift": -0.47049
+        "standardizedShift": -0.47081
       },
       {
         "feature": "drawdown_252",
-        "referenceMean": -0.11817246,
+        "referenceMean": -0.1182171,
         "latestMean": -0.17465519,
-        "standardizedShift": -0.44201
+        "standardizedShift": -0.44161
       },
       {
         "feature": "beta_60",
-        "referenceMean": 1.09029687,
+        "referenceMean": 1.09030896,
         "latestMean": 0.89787615,
-        "standardizedShift": -0.35582
+        "standardizedShift": -0.35579
       },
       {
         "feature": "ret_20",
-        "referenceMean": 0.01831502,
+        "referenceMean": 0.01831453,
         "latestMean": -0.01511363,
-        "standardizedShift": -0.35406
+        "standardizedShift": -0.35402
       },
       {
         "feature": "spy_ret_20",
-        "referenceMean": 0.0121449,
+        "referenceMean": 0.01215434,
         "latestMean": -0.00239013,
-        "standardizedShift": -0.31446
+        "standardizedShift": -0.31461
       },
       {
         "feature": "vol_60",
-        "referenceMean": 0.30345272,
+        "referenceMean": 0.30348506,
         "latestMean": 0.35154743,
-        "standardizedShift": 0.30603
+        "standardizedShift": 0.30581
       }
     ]
   },
