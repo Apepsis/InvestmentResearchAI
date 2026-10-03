@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T01:44:55+00:00",
+  "generatedAt": "2026-10-03T01:15:53+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
@@ -7,7 +7,7 @@
     "predictionsPublished": 96,
     "predictionsExpected": 96,
     "marketDataAgeHours": 0.016,
-    "providerErrors": 1
+    "providerErrors": 0
   },
   "featureDrift": {
     "maximumAbsoluteShift": 0.76737,
@@ -16,20 +16,20 @@
     "topShifts": [
       {
         "feature": "rsi_14",
-        "referenceMean": 0.53608997,
+        "referenceMean": 0.53608995,
         "latestMean": 0.43922646,
         "standardizedShift": -0.76737
       },
       {
         "feature": "spy_vol_60",
-        "referenceMean": 0.15859181,
+        "referenceMean": 0.15859179,
         "latestMean": 0.11131479,
         "standardizedShift": -0.4902
       },
       {
         "feature": "drawdown_252",
         "referenceMean": -0.11821778,
-        "latestMean": -0.18002383,
+        "latestMean": -0.18002384,
         "standardizedShift": -0.48366
       },
       {
@@ -52,13 +52,13 @@
       },
       {
         "feature": "beta_60",
-        "referenceMean": 1.09031037,
+        "referenceMean": 1.0903108,
         "latestMean": 0.91342089,
         "standardizedShift": -0.32669
       },
       {
         "feature": "vol_60",
-        "referenceMean": 0.30353396,
+        "referenceMean": 0.30353394,
         "latestMean": 0.3467089,
         "standardizedShift": 0.27474
       }
