@@ -1,25 +1,22 @@
 {
-  "generatedAt": "2026-10-07T19:12:38+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-10-08T02:04:25+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 1,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "619961fc108d90ec1912",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "CAT",
-      "title": "Caída extraordinaria para revisar: CAT",
-      "message": "CAT registra -6.19% desde la referencia diaria (863.44 → 809.96 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 809.96,
-      "referencePrice": 863.44,
-      "change": -0.06193829
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260714-regularized-cb3d9dc4e5 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 1,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -164,6 +161,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
