@@ -1,25 +1,22 @@
 {
-  "generatedAt": "2026-10-08T19:08:16+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-10-09T02:18:19+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 1,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "dc9b706d6c2f420fabce",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "INTC",
-      "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -6.17% desde la referencia diaria (113.12 → 106.14 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 106.14,
-      "referencePrice": 113.12,
-      "change": -0.06170438
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260715-regularized-811a0bba49 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 1,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -172,6 +169,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
