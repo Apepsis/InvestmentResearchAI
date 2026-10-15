@@ -1,37 +1,22 @@
 {
-  "generatedAt": "2026-10-14T17:46:43+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-10-15T00:36:25+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 2,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "8930c570a8198c8dfa2f",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "BAC",
-      "title": "Caída extraordinaria para revisar: BAC",
-      "message": "BAC registra -7.02% desde la referencia diaria (54.58 → 50.75 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 50.75,
-      "referencePrice": 54.58,
-      "change": -0.07017222
-    },
-    {
-      "fingerprint": "619961fc108d90ec1912",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "CAT",
-      "title": "Caída extraordinaria para revisar: CAT",
-      "message": "CAT registra -6.60% desde la referencia diaria (799.37 → 746.64 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 746.64,
-      "referencePrice": 799.37,
-      "change": -0.06596445
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260721-regularized-b71851ae54 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 2,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -200,6 +185,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
