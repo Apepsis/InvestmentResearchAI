@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T17:09:40+00:00",
+  "generatedAt": "2026-10-16T19:56:40+00:00",
   "mode": "intraday",
   "deliveryEnabled": true,
   "deliveryStatus": "sent",
@@ -12,11 +12,23 @@
       "severity": "critical",
       "ticker": "INTC",
       "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -7.27% desde la referencia diaria (98.12 → 90.99 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "message": "INTC registra -8.22% desde la referencia diaria (98.12 → 90.06 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
       "cooldownHours": 4,
-      "observedPrice": 90.99,
+      "observedPrice": 90.055,
       "referencePrice": 98.12,
-      "change": -0.07266612
+      "change": -0.08219527
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "AMD",
+      "title": "Caída extraordinaria para revisar: AMD",
+      "message": "AMD registra -7.35% desde la referencia diaria (570.82 → 528.88 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 528.88,
+      "referencePrice": 570.82,
+      "change": -0.07347325
     }
   ],
   "pendingAfterCooldown": 1,
@@ -193,6 +205,14 @@
       "ticker": "INTC",
       "severity": "critical",
       "sentAt": "2026-10-16T17:09:40+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "ticker": "AMD",
+      "severity": "critical",
+      "sentAt": "2026-10-16T19:56:40+00:00",
       "mode": "intraday"
     }
   ],
