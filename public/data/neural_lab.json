@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T00:36:23+00:00",
+  "generatedAt": "2026-10-16T00:30:34+00:00",
   "mode": "live",
   "modelFamily": "persistent-neural-research-v8",
   "status": "neural-champion",
   "hypothesis": "Una red pequeña y persistente puede mejorar probabilidades fuera de muestra frente a la regresión logística sin usar información futura.",
   "active": {
     "role": "champion",
-    "version": "neural-v8-20260721-regularized-b71851ae54",
-    "artifactHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-    "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+    "version": "neural-v8-20260721-regularized-11875c1b6e",
+    "artifactHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+    "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
     "architecture": {
       "input": 15,
       "hidden": [
@@ -33,30 +33,30 @@
     "kind": "regularized-logistic-baseline",
     "version": "transparent-research-v5.0",
     "metrics": {
-      "rows": 12510,
-      "probabilities": 37530,
-      "brierScore": 0.25231136,
-      "logLoss": 0.69778207,
-      "accuracy": 0.46770584,
-      "ece": 0.05039171,
+      "rows": 12512,
+      "probabilities": 37536,
+      "brierScore": 0.25231104,
+      "logLoss": 0.69778143,
+      "accuracy": 0.467711,
+      "ece": 0.0503854,
       "perHorizon": {
         "5": {
-          "brierScore": 0.25032062,
-          "logLoss": 0.69378951,
-          "accuracy": 0.49680256,
-          "ece": 0.01531785
+          "brierScore": 0.25032131,
+          "logLoss": 0.69379089,
+          "accuracy": 0.49672315,
+          "ece": 0.01539602
         },
         "20": {
-          "brierScore": 0.25186092,
-          "logLoss": 0.69687874,
-          "accuracy": 0.47913669,
-          "ece": 0.03848891
+          "brierScore": 0.25185927,
+          "logLoss": 0.69687543,
+          "accuracy": 0.47921995,
+          "ece": 0.03840416
         },
         "60": {
-          "brierScore": 0.25475254,
-          "logLoss": 0.70267795,
-          "accuracy": 0.42717826,
-          "ece": 0.09736838
+          "brierScore": 0.25475256,
+          "logLoss": 0.70267798,
+          "accuracy": 0.4271899,
+          "ece": 0.09735601
         }
       },
       "temporalBlockWinRate": 1.0
@@ -65,30 +65,30 @@
   "baseline": {
     "version": "transparent-research-v5.0",
     "metrics": {
-      "rows": 12510,
-      "probabilities": 37530,
-      "brierScore": 0.25231136,
-      "logLoss": 0.69778207,
-      "accuracy": 0.46770584,
-      "ece": 0.05039171,
+      "rows": 12512,
+      "probabilities": 37536,
+      "brierScore": 0.25231104,
+      "logLoss": 0.69778143,
+      "accuracy": 0.467711,
+      "ece": 0.0503854,
       "perHorizon": {
         "5": {
-          "brierScore": 0.25032062,
-          "logLoss": 0.69378951,
-          "accuracy": 0.49680256,
-          "ece": 0.01531785
+          "brierScore": 0.25032131,
+          "logLoss": 0.69379089,
+          "accuracy": 0.49672315,
+          "ece": 0.01539602
         },
         "20": {
-          "brierScore": 0.25186092,
-          "logLoss": 0.69687874,
-          "accuracy": 0.47913669,
-          "ece": 0.03848891
+          "brierScore": 0.25185927,
+          "logLoss": 0.69687543,
+          "accuracy": 0.47921995,
+          "ece": 0.03840416
         },
         "60": {
-          "brierScore": 0.25475254,
-          "logLoss": 0.70267795,
-          "accuracy": 0.42717826,
-          "ece": 0.09736838
+          "brierScore": 0.25475256,
+          "logLoss": 0.70267798,
+          "accuracy": 0.4271899,
+          "ece": 0.09735601
         }
       },
       "temporalBlockWinRate": 1.0
@@ -96,99 +96,99 @@
     "fit": {
       "5": {
         "coefficients": [
-          -0.03318731,
-          0.01410538,
+          -0.03318733,
+          0.01410539,
           -0.00147931,
-          -0.02284772,
-          0.02933832,
-          0.00720388,
-          -0.00888057,
-          -0.01329902,
-          -0.007372,
+          -0.02284774,
+          0.02933831,
+          0.00720395,
+          -0.00888064,
+          -0.01329913,
+          -0.00737194,
           -0.00896957,
-          -0.01452972,
-          -0.02394227,
-          -0.02103784,
-          -0.02009399,
-          -0.01184881
+          -0.01452978,
+          -0.02394224,
+          -0.02103787,
+          -0.02009387,
+          -0.01184841
         ],
-        "calibrationSlope": 0.98766769,
-        "calibrationIntercept": 0.00053012
+        "calibrationSlope": 0.98766779,
+        "calibrationIntercept": 0.00053017
       },
       "20": {
         "coefficients": [
-          -0.00219936,
-          -0.00094443,
-          0.02622908,
-          -0.02781479,
-          0.0305027,
-          0.01364143,
-          -0.01645234,
-          -0.02734928,
-          -0.03202891,
-          0.00160154,
-          -0.01799128,
-          -0.02626922,
-          -0.03171099,
-          -0.02052271,
-          -0.04264088
+          -0.00219934,
+          -0.00094441,
+          0.0262291,
+          -0.02781481,
+          0.03050268,
+          0.01364144,
+          -0.01645238,
+          -0.02734933,
+          -0.03202874,
+          0.00160155,
+          -0.01799127,
+          -0.02626926,
+          -0.03171101,
+          -0.02052261,
+          -0.04264055
         ],
-        "calibrationSlope": 0.9628241,
-        "calibrationIntercept": -0.01409639
+        "calibrationSlope": 0.96282437,
+        "calibrationIntercept": -0.01409624
       },
       "60": {
         "coefficients": [
-          -0.0187976,
-          0.00084213,
-          0.04745261,
-          -0.01111271,
-          0.02123616,
-          0.02466354,
-          0.00344,
-          -0.06401827,
-          -0.06355964,
-          -0.00208592,
-          -0.02866092,
-          0.00617942,
-          -0.0120924,
-          -0.02492078,
-          -0.00606624
+          -0.01879755,
+          0.00084221,
+          0.04745265,
+          -0.01111266,
+          0.02123612,
+          0.02466333,
+          0.00343977,
+          -0.06401861,
+          -0.06355942,
+          -0.00208594,
+          -0.02866093,
+          0.0061793,
+          -0.0120925,
+          -0.02492074,
+          -0.00606499
         ],
-        "calibrationSlope": 0.98361602,
-        "calibrationIntercept": -0.00560074
+        "calibrationSlope": 0.98361736,
+        "calibrationIntercept": -0.00560083
       }
     }
   },
   "bestChallenger": {
-    "version": "neural-v8-20260721-regularized-b71851ae54",
+    "version": "neural-v8-20260721-regularized-11875c1b6e",
     "candidateKind": "regularized",
     "parentVersion": null,
-    "artifactHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
+    "artifactHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
     "metrics": {
-      "rows": 12510,
-      "probabilities": 37530,
-      "brierScore": 0.25123732,
-      "logLoss": 0.69562404,
-      "accuracy": 0.47564615,
-      "ece": 0.03673285,
+      "rows": 12512,
+      "probabilities": 37536,
+      "brierScore": 0.25123742,
+      "logLoss": 0.69562424,
+      "accuracy": 0.4756234,
+      "ece": 0.0367556,
       "perHorizon": {
         "5": {
-          "brierScore": 0.25002256,
-          "logLoss": 0.69319231,
-          "accuracy": 0.50007994,
-          "ece": 0.0047499
+          "brierScore": 0.25002334,
+          "logLoss": 0.69319385,
+          "accuracy": 0.5,
+          "ece": 0.00482983
         },
         "20": {
-          "brierScore": 0.25030972,
-          "logLoss": 0.69376665,
-          "accuracy": 0.47945643,
-          "ece": 0.0270508
+          "brierScore": 0.25030967,
+          "logLoss": 0.69376656,
+          "accuracy": 0.47945972,
+          "ece": 0.02704752
         },
         "60": {
-          "brierScore": 0.25337969,
-          "logLoss": 0.69991316,
-          "accuracy": 0.44740208,
-          "ece": 0.07839785
+          "brierScore": 0.25337925,
+          "logLoss": 0.69991229,
+          "accuracy": 0.44741049,
+          "ece": 0.07838944
         }
       },
       "temporalBlockWinRate": 0.75,
@@ -198,7 +198,7 @@
           "start": "2024-12-26",
           "end": "2025-05-19",
           "candidateBrier": 0.25111503,
-          "referenceBrier": 0.25258528,
+          "referenceBrier": 0.25258527,
           "won": true
         },
         {
@@ -206,7 +206,7 @@
           "start": "2025-05-20",
           "end": "2025-10-08",
           "candidateBrier": 0.25023638,
-          "referenceBrier": 0.25166412,
+          "referenceBrier": 0.25166411,
           "won": true
         },
         {
@@ -214,15 +214,15 @@
           "start": "2025-10-09",
           "end": "2026-03-02",
           "candidateBrier": 0.25145866,
-          "referenceBrier": 0.25057398,
+          "referenceBrier": 0.25057399,
           "won": false
         },
         {
           "block": 4,
           "start": "2026-03-03",
           "end": "2026-07-21",
-          "candidateBrier": 0.2521491,
-          "referenceBrier": 0.2544452,
+          "candidateBrier": 0.25214891,
+          "referenceBrier": 0.25444256,
           "won": true
         }
       ],
@@ -242,35 +242,35 @@
   },
   "candidates": [
     {
-      "version": "neural-v8-20260721-regularized-b71851ae54",
+      "version": "neural-v8-20260721-regularized-11875c1b6e",
       "candidateKind": "regularized",
       "parentVersion": null,
-      "artifactHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
+      "artifactHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
       "metrics": {
-        "rows": 12510,
-        "probabilities": 37530,
-        "brierScore": 0.25123732,
-        "logLoss": 0.69562404,
-        "accuracy": 0.47564615,
-        "ece": 0.03673285,
+        "rows": 12512,
+        "probabilities": 37536,
+        "brierScore": 0.25123742,
+        "logLoss": 0.69562424,
+        "accuracy": 0.4756234,
+        "ece": 0.0367556,
         "perHorizon": {
           "5": {
-            "brierScore": 0.25002256,
-            "logLoss": 0.69319231,
-            "accuracy": 0.50007994,
-            "ece": 0.0047499
+            "brierScore": 0.25002334,
+            "logLoss": 0.69319385,
+            "accuracy": 0.5,
+            "ece": 0.00482983
           },
           "20": {
-            "brierScore": 0.25030972,
-            "logLoss": 0.69376665,
-            "accuracy": 0.47945643,
-            "ece": 0.0270508
+            "brierScore": 0.25030967,
+            "logLoss": 0.69376656,
+            "accuracy": 0.47945972,
+            "ece": 0.02704752
           },
           "60": {
-            "brierScore": 0.25337969,
-            "logLoss": 0.69991316,
-            "accuracy": 0.44740208,
-            "ece": 0.07839785
+            "brierScore": 0.25337925,
+            "logLoss": 0.69991229,
+            "accuracy": 0.44741049,
+            "ece": 0.07838944
           }
         },
         "temporalBlockWinRate": 0.75,
@@ -280,7 +280,7 @@
             "start": "2024-12-26",
             "end": "2025-05-19",
             "candidateBrier": 0.25111503,
-            "referenceBrier": 0.25258528,
+            "referenceBrier": 0.25258527,
             "won": true
           },
           {
@@ -288,7 +288,7 @@
             "start": "2025-05-20",
             "end": "2025-10-08",
             "candidateBrier": 0.25023638,
-            "referenceBrier": 0.25166412,
+            "referenceBrier": 0.25166411,
             "won": true
           },
           {
@@ -296,15 +296,15 @@
             "start": "2025-10-09",
             "end": "2026-03-02",
             "candidateBrier": 0.25145866,
-            "referenceBrier": 0.25057398,
+            "referenceBrier": 0.25057399,
             "won": false
           },
           {
             "block": 4,
             "start": "2026-03-03",
             "end": "2026-07-21",
-            "candidateBrier": 0.2521491,
-            "referenceBrier": 0.2544452,
+            "candidateBrier": 0.25214891,
+            "referenceBrier": 0.25444256,
             "won": true
           }
         ],
@@ -323,35 +323,35 @@
       "source": "trained-this-run"
     },
     {
-      "version": "neural-v8-20260721-cold-faf8f35551",
+      "version": "neural-v8-20260721-cold-0ce84ba25a",
       "candidateKind": "cold",
       "parentVersion": null,
-      "artifactHash": "sha256:57e8430ea7f4e4a41c5ecfc68f24cf0315a2605765e9d1ea198e364a1f45927c",
+      "artifactHash": "sha256:2f6b9fa4b026e33cd6a868c3a444335efb5bfe16b0f7a5986a5f970dda0f4e2b",
       "metrics": {
-        "rows": 12510,
-        "probabilities": 37530,
-        "brierScore": 0.25234199,
-        "logLoss": 0.69785094,
-        "accuracy": 0.47559286,
-        "ece": 0.04272155,
+        "rows": 12512,
+        "probabilities": 37536,
+        "brierScore": 0.25234146,
+        "logLoss": 0.69784987,
+        "accuracy": 0.47559676,
+        "ece": 0.04271606,
         "perHorizon": {
           "5": {
-            "brierScore": 0.25030837,
-            "logLoss": 0.69376484,
-            "accuracy": 0.50095923,
-            "ece": 0.0101452
+            "brierScore": 0.25030749,
+            "logLoss": 0.69376309,
+            "accuracy": 0.501039,
+            "ece": 0.01006447
           },
           "20": {
-            "brierScore": 0.25133267,
-            "logLoss": 0.69582009,
-            "accuracy": 0.49232614,
-            "ece": 0.02457376
+            "brierScore": 0.25133119,
+            "logLoss": 0.69581713,
+            "accuracy": 0.49232737,
+            "ece": 0.02456817
           },
           "60": {
-            "brierScore": 0.25538494,
-            "logLoss": 0.70396788,
-            "accuracy": 0.43349321,
-            "ece": 0.09358442
+            "brierScore": 0.2553857,
+            "logLoss": 0.70396939,
+            "accuracy": 0.43342391,
+            "ece": 0.09365098
           }
         },
         "temporalBlockWinRate": 0.75,
@@ -360,36 +360,36 @@
             "block": 1,
             "start": "2024-12-26",
             "end": "2025-05-19",
-            "candidateBrier": 0.2530813,
-            "referenceBrier": 0.25258528,
+            "candidateBrier": 0.25308128,
+            "referenceBrier": 0.25258527,
             "won": false
           },
           {
             "block": 2,
             "start": "2025-05-20",
             "end": "2025-10-08",
-            "candidateBrier": 0.25146561,
-            "referenceBrier": 0.25166412,
+            "candidateBrier": 0.2514656,
+            "referenceBrier": 0.25166411,
             "won": true
           },
           {
             "block": 3,
             "start": "2025-10-09",
             "end": "2026-03-02",
-            "candidateBrier": 0.25048752,
-            "referenceBrier": 0.25057398,
+            "candidateBrier": 0.25048754,
+            "referenceBrier": 0.25057399,
             "won": true
           },
           {
             "block": 4,
             "start": "2026-03-03",
             "end": "2026-07-21",
-            "candidateBrier": 0.25435537,
-            "referenceBrier": 0.2544452,
+            "candidateBrier": 0.25435194,
+            "referenceBrier": 0.25444256,
             "won": true
           }
         ],
-        "meanEnsembleDisagreement": 0.00782025
+        "meanEnsembleDisagreement": 0.00782018
       },
       "promotionChecks": {
         "minimumShadowSample": true,
@@ -404,7 +404,7 @@
       "source": "trained-this-run"
     }
   ],
-  "decision": "neural-v8-20260721-regularized-b71851ae54 fue promovido: superó todos los gates temporales y ajustados por 2 ensayos.",
+  "decision": "neural-v8-20260721-regularized-11875c1b6e fue promovido: superó todos los gates temporales y ajustados por 2 ensayos.",
   "promotedThisRun": true,
   "governance": {
     "trialCount": 2,
@@ -424,11 +424,11 @@
     "purgeSessions": 60,
     "trainingRows": 42588,
     "calibrationRows": 12512,
-    "shadowRows": 12510
+    "shadowRows": 12512
   },
   "currentPredictions": [
     {
-      "id": "2026-10-14:AAPL:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AAPL:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AAPL",
       "horizonSessions": 5,
@@ -442,11 +442,11 @@
       },
       "initialPrice": 342.959991,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061683,
       "decisionThreshold": 0.5,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AAPL:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AAPL:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AAPL",
       "horizonSessions": 20,
@@ -508,11 +508,11 @@
       },
       "initialPrice": 342.959991,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091575,
       "decisionThreshold": 0.5,
@@ -560,7 +560,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AAPL:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AAPL:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AAPL",
       "horizonSessions": 60,
@@ -574,11 +574,11 @@
       },
       "initialPrice": 342.959991,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048453,
       "decisionThreshold": 0.5,
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ADBE:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ADBE:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ADBE",
       "horizonSessions": 5,
@@ -640,11 +640,11 @@
       },
       "initialPrice": 240.679993,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061716,
       "decisionThreshold": 0.5,
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ADBE:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ADBE:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ADBE",
       "horizonSessions": 20,
@@ -706,11 +706,11 @@
       },
       "initialPrice": 240.679993,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091578,
       "decisionThreshold": 0.5,
@@ -758,7 +758,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ADBE:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ADBE:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ADBE",
       "horizonSessions": 60,
@@ -772,11 +772,11 @@
       },
       "initialPrice": 240.679993,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048454,
       "decisionThreshold": 0.5,
@@ -824,7 +824,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AMD:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMD:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMD",
       "horizonSessions": 5,
@@ -838,11 +838,11 @@
       },
       "initialPrice": 570.820007,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0006181,
       "decisionThreshold": 0.5,
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AMD:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMD:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMD",
       "horizonSessions": 20,
@@ -904,11 +904,11 @@
       },
       "initialPrice": 570.820007,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091598,
       "decisionThreshold": 0.5,
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AMD:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMD:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMD",
       "horizonSessions": 60,
@@ -970,11 +970,11 @@
       },
       "initialPrice": 570.820007,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048474,
       "decisionThreshold": 0.5,
@@ -1022,7 +1022,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AMZN:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMZN:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMZN",
       "horizonSessions": 5,
@@ -1036,11 +1036,11 @@
       },
       "initialPrice": 254.080002,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0006175,
       "decisionThreshold": 0.5,
@@ -1088,7 +1088,7 @@
       ]
     },
     {
-      "id": "2026-10-14:AMZN:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMZN:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMZN",
       "horizonSessions": 20,
@@ -1102,11 +1102,11 @@
       },
       "initialPrice": 254.080002,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091586,
       "decisionThreshold": 0.5,
@@ -1154,13 +1154,13 @@
       ]
     },
     {
-      "id": "2026-10-14:AMZN:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:AMZN:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "AMZN",
       "horizonSessions": 60,
-      "probability": 0.52579987,
+      "probability": 0.52579988,
       "uncertainty": {
-        "low": 0.03579987,
+        "low": 0.03579988,
         "high": 1,
         "ensembleStd": 0.00175348,
         "conformalRadius80": 0.52579996,
@@ -1168,13 +1168,13 @@
       },
       "initialPrice": 254.080002,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00048464,
+      "changeFromPrevious": -0.00048463,
       "decisionThreshold": 0.5,
       "contributions": [
         {
@@ -1220,7 +1220,7 @@
       ]
     },
     {
-      "id": "2026-10-14:BAC:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:BAC:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "BAC",
       "horizonSessions": 5,
@@ -1234,11 +1234,11 @@
       },
       "initialPrice": 51.389999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061568,
       "decisionThreshold": 0.5,
@@ -1286,7 +1286,7 @@
       ]
     },
     {
-      "id": "2026-10-14:BAC:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:BAC:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "BAC",
       "horizonSessions": 20,
@@ -1300,11 +1300,11 @@
       },
       "initialPrice": 51.389999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091561,
       "decisionThreshold": 0.5,
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "id": "2026-10-14:BAC:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:BAC:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "BAC",
       "horizonSessions": 60,
@@ -1366,11 +1366,11 @@
       },
       "initialPrice": 51.389999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0004845,
       "decisionThreshold": 0.5,
@@ -1418,7 +1418,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CAT:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CAT:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CAT",
       "horizonSessions": 5,
@@ -1432,11 +1432,11 @@
       },
       "initialPrice": 748.97998,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061645,
       "decisionThreshold": 0.5,
@@ -1484,7 +1484,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CAT:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CAT:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CAT",
       "horizonSessions": 20,
@@ -1498,11 +1498,11 @@
       },
       "initialPrice": 748.97998,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091573,
       "decisionThreshold": 0.5,
@@ -1550,7 +1550,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CAT:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CAT:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CAT",
       "horizonSessions": 60,
@@ -1564,11 +1564,11 @@
       },
       "initialPrice": 748.97998,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0004846,
       "decisionThreshold": 0.5,
@@ -1616,7 +1616,7 @@
       ]
     },
     {
-      "id": "2026-10-14:COST:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:COST:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "COST",
       "horizonSessions": 5,
@@ -1630,11 +1630,11 @@
       },
       "initialPrice": 982.0,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061692,
       "decisionThreshold": 0.5,
@@ -1682,7 +1682,7 @@
       ]
     },
     {
-      "id": "2026-10-14:COST:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:COST:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "COST",
       "horizonSessions": 20,
@@ -1696,11 +1696,11 @@
       },
       "initialPrice": 982.0,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091576,
       "decisionThreshold": 0.5,
@@ -1748,7 +1748,7 @@
       ]
     },
     {
-      "id": "2026-10-14:COST:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:COST:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "COST",
       "horizonSessions": 60,
@@ -1762,11 +1762,11 @@
       },
       "initialPrice": 982.0,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048452,
       "decisionThreshold": 0.5,
@@ -1814,7 +1814,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CRM:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CRM:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CRM",
       "horizonSessions": 5,
@@ -1828,11 +1828,11 @@
       },
       "initialPrice": 235.949997,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0006183,
       "decisionThreshold": 0.5,
@@ -1880,7 +1880,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CRM:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CRM:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CRM",
       "horizonSessions": 20,
@@ -1894,11 +1894,11 @@
       },
       "initialPrice": 235.949997,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091591,
       "decisionThreshold": 0.5,
@@ -1946,7 +1946,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CRM:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CRM:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CRM",
       "horizonSessions": 60,
@@ -1960,11 +1960,11 @@
       },
       "initialPrice": 235.949997,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048458,
       "decisionThreshold": 0.5,
@@ -2012,7 +2012,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CVX:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CVX:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CVX",
       "horizonSessions": 5,
@@ -2026,11 +2026,11 @@
       },
       "initialPrice": 222.039993,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061711,
       "decisionThreshold": 0.5,
@@ -2078,7 +2078,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CVX:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CVX:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CVX",
       "horizonSessions": 20,
@@ -2092,11 +2092,11 @@
       },
       "initialPrice": 222.039993,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091577,
       "decisionThreshold": 0.5,
@@ -2144,7 +2144,7 @@
       ]
     },
     {
-      "id": "2026-10-14:CVX:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:CVX:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "CVX",
       "horizonSessions": 60,
@@ -2158,11 +2158,11 @@
       },
       "initialPrice": 222.039993,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048449,
       "decisionThreshold": 0.5,
@@ -2210,7 +2210,7 @@
       ]
     },
     {
-      "id": "2026-10-14:DIS:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:DIS:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "DIS",
       "horizonSessions": 5,
@@ -2224,11 +2224,11 @@
       },
       "initialPrice": 108.989998,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061707,
       "decisionThreshold": 0.5,
@@ -2276,7 +2276,7 @@
       ]
     },
     {
-      "id": "2026-10-14:DIS:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:DIS:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "DIS",
       "horizonSessions": 20,
@@ -2290,11 +2290,11 @@
       },
       "initialPrice": 108.989998,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091577,
       "decisionThreshold": 0.5,
@@ -2342,7 +2342,7 @@
       ]
     },
     {
-      "id": "2026-10-14:DIS:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:DIS:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "DIS",
       "horizonSessions": 60,
@@ -2356,11 +2356,11 @@
       },
       "initialPrice": 108.989998,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048453,
       "decisionThreshold": 0.5,
@@ -2408,7 +2408,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GE:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GE:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GE",
       "horizonSessions": 5,
@@ -2422,11 +2422,11 @@
       },
       "initialPrice": 307.019989,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061651,
       "decisionThreshold": 0.5,
@@ -2474,7 +2474,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GE:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GE:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GE",
       "horizonSessions": 20,
@@ -2488,11 +2488,11 @@
       },
       "initialPrice": 307.019989,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091572,
       "decisionThreshold": 0.5,
@@ -2540,7 +2540,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GE:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GE:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GE",
       "horizonSessions": 60,
@@ -2554,11 +2554,11 @@
       },
       "initialPrice": 307.019989,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048455,
       "decisionThreshold": 0.5,
@@ -2606,7 +2606,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GOOGL:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GOOGL:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GOOGL",
       "horizonSessions": 5,
@@ -2620,11 +2620,11 @@
       },
       "initialPrice": 347.640015,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061719,
       "decisionThreshold": 0.5,
@@ -2672,7 +2672,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GOOGL:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GOOGL:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GOOGL",
       "horizonSessions": 20,
@@ -2686,11 +2686,11 @@
       },
       "initialPrice": 347.640015,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091581,
       "decisionThreshold": 0.5,
@@ -2738,7 +2738,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GOOGL:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GOOGL:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GOOGL",
       "horizonSessions": 60,
@@ -2752,11 +2752,11 @@
       },
       "initialPrice": 347.640015,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0004846,
       "decisionThreshold": 0.5,
@@ -2804,7 +2804,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GS:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GS:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GS",
       "horizonSessions": 5,
@@ -2818,11 +2818,11 @@
       },
       "initialPrice": 878.719971,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061659,
       "decisionThreshold": 0.5,
@@ -2870,7 +2870,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GS:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GS:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GS",
       "horizonSessions": 20,
@@ -2884,11 +2884,11 @@
       },
       "initialPrice": 878.719971,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091574,
       "decisionThreshold": 0.5,
@@ -2936,7 +2936,7 @@
       ]
     },
     {
-      "id": "2026-10-14:GS:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:GS:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "GS",
       "horizonSessions": 60,
@@ -2950,11 +2950,11 @@
       },
       "initialPrice": 878.719971,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048459,
       "decisionThreshold": 0.5,
@@ -3002,7 +3002,7 @@
       ]
     },
     {
-      "id": "2026-10-14:HD:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:HD:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "HD",
       "horizonSessions": 5,
@@ -3010,17 +3010,17 @@
       "uncertainty": {
         "low": 0.01483037,
         "high": 0.99483037,
-        "ensembleStd": 0.00208184,
+        "ensembleStd": 0.00208183,
         "conformalRadius80": 0.5048301,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
       "initialPrice": 295.51001,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0006167,
       "decisionThreshold": 0.5,
@@ -3068,7 +3068,7 @@
       ]
     },
     {
-      "id": "2026-10-14:HD:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:HD:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "HD",
       "horizonSessions": 20,
@@ -3082,11 +3082,11 @@
       },
       "initialPrice": 295.51001,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091574,
       "decisionThreshold": 0.5,
@@ -3134,7 +3134,7 @@
       ]
     },
     {
-      "id": "2026-10-14:HD:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:HD:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "HD",
       "horizonSessions": 60,
@@ -3148,11 +3148,11 @@
       },
       "initialPrice": 295.51001,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048455,
       "decisionThreshold": 0.5,
@@ -3200,7 +3200,7 @@
       ]
     },
     {
-      "id": "2026-10-14:INTC:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:INTC:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "INTC",
       "horizonSessions": 5,
@@ -3214,11 +3214,11 @@
       },
       "initialPrice": 98.120003,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061785,
       "decisionThreshold": 0.5,
@@ -3266,7 +3266,7 @@
       ]
     },
     {
-      "id": "2026-10-14:INTC:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:INTC:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "INTC",
       "horizonSessions": 20,
@@ -3280,11 +3280,11 @@
       },
       "initialPrice": 98.120003,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091594,
       "decisionThreshold": 0.5,
@@ -3332,7 +3332,7 @@
       ]
     },
     {
-      "id": "2026-10-14:INTC:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:INTC:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "INTC",
       "horizonSessions": 60,
@@ -3346,11 +3346,11 @@
       },
       "initialPrice": 98.120003,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048474,
       "decisionThreshold": 0.5,
@@ -3398,7 +3398,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JNJ:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JNJ:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JNJ",
       "horizonSessions": 5,
@@ -3412,11 +3412,11 @@
       },
       "initialPrice": 253.910004,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061591,
       "decisionThreshold": 0.5,
@@ -3464,7 +3464,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JNJ:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JNJ:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JNJ",
       "horizonSessions": 20,
@@ -3478,11 +3478,11 @@
       },
       "initialPrice": 253.910004,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091563,
       "decisionThreshold": 0.5,
@@ -3530,7 +3530,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JNJ:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JNJ:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JNJ",
       "horizonSessions": 60,
@@ -3544,11 +3544,11 @@
       },
       "initialPrice": 253.910004,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048447,
       "decisionThreshold": 0.5,
@@ -3596,7 +3596,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JPM:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JPM:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JPM",
       "horizonSessions": 5,
@@ -3610,11 +3610,11 @@
       },
       "initialPrice": 335.279999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061642,
       "decisionThreshold": 0.5,
@@ -3662,7 +3662,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JPM:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JPM:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JPM",
       "horizonSessions": 20,
@@ -3676,11 +3676,11 @@
       },
       "initialPrice": 335.279999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0009157,
       "decisionThreshold": 0.5,
@@ -3728,7 +3728,7 @@
       ]
     },
     {
-      "id": "2026-10-14:JPM:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:JPM:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "JPM",
       "horizonSessions": 60,
@@ -3742,11 +3742,11 @@
       },
       "initialPrice": 335.279999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048452,
       "decisionThreshold": 0.5,
@@ -3794,7 +3794,7 @@
       ]
     },
     {
-      "id": "2026-10-14:LLY:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:LLY:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "LLY",
       "horizonSessions": 5,
@@ -3808,11 +3808,11 @@
       },
       "initialPrice": 1208.73999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061666,
       "decisionThreshold": 0.5,
@@ -3860,7 +3860,7 @@
       ]
     },
     {
-      "id": "2026-10-14:LLY:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:LLY:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "LLY",
       "horizonSessions": 20,
@@ -3874,11 +3874,11 @@
       },
       "initialPrice": 1208.73999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091574,
       "decisionThreshold": 0.5,
@@ -3926,7 +3926,7 @@
       ]
     },
     {
-      "id": "2026-10-14:LLY:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:LLY:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "LLY",
       "horizonSessions": 60,
@@ -3940,11 +3940,11 @@
       },
       "initialPrice": 1208.73999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048452,
       "decisionThreshold": 0.5,
@@ -3992,7 +3992,7 @@
       ]
     },
     {
-      "id": "2026-10-14:MCD:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MCD:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MCD",
       "horizonSessions": 5,
@@ -4006,11 +4006,11 @@
       },
       "initialPrice": 238.309998,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061622,
       "decisionThreshold": 0.5,
@@ -4058,7 +4058,7 @@
       ]
     },
     {
-      "id": "2026-10-14:MCD:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MCD:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MCD",
       "horizonSessions": 20,
@@ -4072,11 +4072,11 @@
       },
       "initialPrice": 238.309998,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091567,
       "decisionThreshold": 0.5,
@@ -4124,7 +4124,7 @@
       ]
     },
     {
-      "id": "2026-10-14:MCD:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MCD:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MCD",
       "horizonSessions": 60,
@@ -4138,11 +4138,11 @@
       },
       "initialPrice": 238.309998,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0004845,
       "decisionThreshold": 0.5,
@@ -4190,122 +4190,117 @@
       ]
     },
     {
-      "id": "2026-10-13:META:5:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
+      "id": "2026-10-14:META:5:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
       "ticker": "META",
       "horizonSessions": 5,
-      "probability": 0.50482835,
+      "probability": 0.50482869,
       "uncertainty": {
-        "low": 0.01482835,
-        "high": 0.99482835,
-        "ensembleStd": 0.00208464,
+        "low": 0.01482869,
+        "high": 0.99482869,
+        "ensembleStd": 0.00208415,
         "conformalRadius80": 0.5048301,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
-      "initialPrice": 762.5,
-      "estimatedMaturityDate": "2026-10-20",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "initialPrice": 737.539978,
+      "estimatedMaturityDate": "2026-10-21",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00061873,
+      "changeFromPrevious": 3.4e-07,
       "decisionThreshold": 0.5,
       "contributions": [
         {
-          "feature": "sma_50_ratio",
-          "probabilityContribution": -4.1e-07,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
           "feature": "vol_60",
-          "probabilityContribution": -3.6e-07,
+          "probabilityContribution": -3.7e-07,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "ret_5",
-          "probabilityContribution": -2.2e-07,
+          "feature": "sma_50_ratio",
+          "probabilityContribution": -3e-07,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "vol_20",
-          "probabilityContribution": -1.5e-07,
+          "probabilityContribution": -1.7e-07,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "rsi_14",
-          "probabilityContribution": -1.2e-07,
+          "feature": "ret_5",
+          "probabilityContribution": -1.4e-07,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "spy_vol_60",
+          "probabilityContribution": 8e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "ret_20",
-          "probabilityContribution": -1e-07,
+          "probabilityContribution": -7e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "spy_ret_20",
-          "probabilityContribution": -1e-07,
+          "probabilityContribution": -7e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "spy_sma_200_ratio",
-          "probabilityContribution": -1e-07,
+          "feature": "ret_60",
+          "probabilityContribution": -6e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         }
       ]
     },
     {
-      "id": "2026-10-13:META:20:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
+      "id": "2026-10-14:META:20:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
       "ticker": "META",
       "horizonSessions": 20,
-      "probability": 0.50650703,
+      "probability": 0.50650708,
       "uncertainty": {
-        "low": 0.01650703,
-        "high": 0.99650703,
-        "ensembleStd": 0.00037699,
+        "low": 0.01650708,
+        "high": 0.99650708,
+        "ensembleStd": 0.00037695,
         "conformalRadius80": 0.50650728,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
-      "initialPrice": 762.5,
-      "estimatedMaturityDate": "2026-11-10",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "initialPrice": 737.539978,
+      "estimatedMaturityDate": "2026-11-11",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00091602,
+      "changeFromPrevious": 5e-08,
       "decisionThreshold": 0.5,
       "contributions": [
-        {
-          "feature": "sma_50_ratio",
-          "probabilityContribution": -6e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
         {
           "feature": "vol_60",
           "probabilityContribution": -5e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
+          "feature": "sma_50_ratio",
+          "probabilityContribution": -4e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
           "feature": "ret_5",
-          "probabilityContribution": -3e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "ret_20",
-          "probabilityContribution": -3e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "vol_20",
           "probabilityContribution": -2e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "spy_ret_20",
+          "feature": "ret_20",
+          "probabilityContribution": -2e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "vol_20",
           "probabilityContribution": -2e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
@@ -4318,77 +4313,82 @@
           "feature": "rsi_14",
           "probabilityContribution": -1e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "spy_ret_20",
+          "probabilityContribution": -1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         }
       ]
     },
     {
-      "id": "2026-10-13:META:60:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
+      "id": "2026-10-14:META:60:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
       "ticker": "META",
       "horizonSessions": 60,
-      "probability": 0.52579984,
+      "probability": 0.52579985,
       "uncertainty": {
-        "low": 0.03579984,
+        "low": 0.03579985,
         "high": 1,
-        "ensembleStd": 0.00175352,
+        "ensembleStd": 0.00175351,
         "conformalRadius80": 0.52579996,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
-      "initialPrice": 762.5,
-      "estimatedMaturityDate": "2027-01-05",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "initialPrice": 737.539978,
+      "estimatedMaturityDate": "2027-01-06",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00048467,
+      "changeFromPrevious": 1e-08,
       "decisionThreshold": 0.5,
       "contributions": [
-        {
-          "feature": "sma_50_ratio",
-          "probabilityContribution": -3e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
         {
           "feature": "vol_60",
           "probabilityContribution": -3e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "ret_20",
+          "feature": "sma_50_ratio",
           "probabilityContribution": -2e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "ret_60",
-          "probabilityContribution": 2e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "ret_5",
-          "probabilityContribution": -1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "sma_200_ratio",
-          "probabilityContribution": 1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
           "feature": "vol_20",
+          "probabilityContribution": -2e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "ret_20",
           "probabilityContribution": -1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "ret_60",
+          "probabilityContribution": 1e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "drawdown_252",
           "probabilityContribution": -1e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "spy_ret_20",
+          "probabilityContribution": -1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "spy_vol_60",
+          "probabilityContribution": 1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         }
       ]
     },
     {
-      "id": "2026-10-14:MSFT:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MSFT:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MSFT",
       "horizonSessions": 5,
@@ -4402,11 +4402,11 @@
       },
       "initialPrice": 533.690002,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061829,
       "decisionThreshold": 0.5,
@@ -4454,7 +4454,7 @@
       ]
     },
     {
-      "id": "2026-10-14:MSFT:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MSFT:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MSFT",
       "horizonSessions": 20,
@@ -4468,11 +4468,11 @@
       },
       "initialPrice": 533.690002,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091595,
       "decisionThreshold": 0.5,
@@ -4520,7 +4520,7 @@
       ]
     },
     {
-      "id": "2026-10-14:MSFT:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:MSFT:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "MSFT",
       "horizonSessions": 60,
@@ -4534,11 +4534,11 @@
       },
       "initialPrice": 533.690002,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048463,
       "decisionThreshold": 0.5,
@@ -4586,7 +4586,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NFLX:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NFLX:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NFLX",
       "horizonSessions": 5,
@@ -4600,11 +4600,11 @@
       },
       "initialPrice": 70.57,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061661,
       "decisionThreshold": 0.5,
@@ -4652,7 +4652,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NFLX:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NFLX:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NFLX",
       "horizonSessions": 20,
@@ -4666,11 +4666,11 @@
       },
       "initialPrice": 70.57,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091571,
       "decisionThreshold": 0.5,
@@ -4718,7 +4718,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NFLX:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NFLX:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NFLX",
       "horizonSessions": 60,
@@ -4732,11 +4732,11 @@
       },
       "initialPrice": 70.57,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048451,
       "decisionThreshold": 0.5,
@@ -4784,7 +4784,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NKE:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NKE:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NKE",
       "horizonSessions": 5,
@@ -4798,11 +4798,11 @@
       },
       "initialPrice": 35.299999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061648,
       "decisionThreshold": 0.5,
@@ -4850,7 +4850,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NKE:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NKE:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NKE",
       "horizonSessions": 20,
@@ -4864,11 +4864,11 @@
       },
       "initialPrice": 35.299999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091571,
       "decisionThreshold": 0.5,
@@ -4916,7 +4916,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NKE:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NKE:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NKE",
       "horizonSessions": 60,
@@ -4930,11 +4930,11 @@
       },
       "initialPrice": 35.299999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048453,
       "decisionThreshold": 0.5,
@@ -4982,7 +4982,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NVDA:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NVDA:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NVDA",
       "horizonSessions": 5,
@@ -4996,11 +4996,11 @@
       },
       "initialPrice": 221.300003,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061705,
       "decisionThreshold": 0.5,
@@ -5048,7 +5048,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NVDA:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NVDA:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NVDA",
       "horizonSessions": 20,
@@ -5062,11 +5062,11 @@
       },
       "initialPrice": 221.300003,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091581,
       "decisionThreshold": 0.5,
@@ -5114,7 +5114,7 @@
       ]
     },
     {
-      "id": "2026-10-14:NVDA:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:NVDA:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "NVDA",
       "horizonSessions": 60,
@@ -5128,11 +5128,11 @@
       },
       "initialPrice": 221.300003,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048461,
       "decisionThreshold": 0.5,
@@ -5180,7 +5180,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ORCL:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ORCL:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ORCL",
       "horizonSessions": 5,
@@ -5194,11 +5194,11 @@
       },
       "initialPrice": 130.550003,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061789,
       "decisionThreshold": 0.5,
@@ -5246,7 +5246,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ORCL:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ORCL:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ORCL",
       "horizonSessions": 20,
@@ -5260,11 +5260,11 @@
       },
       "initialPrice": 130.550003,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091591,
       "decisionThreshold": 0.5,
@@ -5312,7 +5312,7 @@
       ]
     },
     {
-      "id": "2026-10-14:ORCL:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:ORCL:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "ORCL",
       "horizonSessions": 60,
@@ -5326,11 +5326,11 @@
       },
       "initialPrice": 130.550003,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048468,
       "decisionThreshold": 0.5,
@@ -5378,7 +5378,7 @@
       ]
     },
     {
-      "id": "2026-10-14:PFE:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:PFE:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "PFE",
       "horizonSessions": 5,
@@ -5392,11 +5392,11 @@
       },
       "initialPrice": 29.209999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061704,
       "decisionThreshold": 0.5,
@@ -5444,27 +5444,27 @@
       ]
     },
     {
-      "id": "2026-10-14:PFE:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:PFE:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "PFE",
       "horizonSessions": 20,
-      "probability": 0.50650729,
+      "probability": 0.50650728,
       "uncertainty": {
-        "low": 0.01650729,
-        "high": 0.99650729,
+        "low": 0.01650728,
+        "high": 0.99650728,
         "ensembleStd": 0.00037679,
         "conformalRadius80": 0.50650728,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
       "initialPrice": 29.209999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00091576,
+      "changeFromPrevious": -0.00091577,
       "decisionThreshold": 0.5,
       "contributions": [
         {
@@ -5510,7 +5510,7 @@
       ]
     },
     {
-      "id": "2026-10-14:PFE:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:PFE:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "PFE",
       "horizonSessions": 60,
@@ -5524,11 +5524,11 @@
       },
       "initialPrice": 29.209999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048451,
       "decisionThreshold": 0.5,
@@ -5576,7 +5576,7 @@
       ]
     },
     {
-      "id": "2026-10-14:TSLA:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:TSLA:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "TSLA",
       "horizonSessions": 5,
@@ -5590,11 +5590,11 @@
       },
       "initialPrice": 367.160004,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061811,
       "decisionThreshold": 0.5,
@@ -5642,7 +5642,7 @@
       ]
     },
     {
-      "id": "2026-10-14:TSLA:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:TSLA:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "TSLA",
       "horizonSessions": 20,
@@ -5656,11 +5656,11 @@
       },
       "initialPrice": 367.160004,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091596,
       "decisionThreshold": 0.5,
@@ -5708,7 +5708,7 @@
       ]
     },
     {
-      "id": "2026-10-14:TSLA:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:TSLA:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "TSLA",
       "horizonSessions": 60,
@@ -5722,11 +5722,11 @@
       },
       "initialPrice": 367.160004,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.0004847,
       "decisionThreshold": 0.5,
@@ -5774,108 +5774,174 @@
       ]
     },
     {
-      "id": "2026-10-13:UBER:5:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
+      "id": "2026-10-14:UBER:5:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
       "ticker": "UBER",
       "horizonSessions": 5,
-      "probability": 0.50482994,
+      "probability": 0.50483029,
       "uncertainty": {
-        "low": 0.01482994,
-        "high": 0.99482994,
-        "ensembleStd": 0.00208243,
+        "low": 0.01483029,
+        "high": 0.99483029,
+        "ensembleStd": 0.00208195,
         "conformalRadius80": 0.5048301,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
-      "initialPrice": 71.32,
-      "estimatedMaturityDate": "2026-10-20",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "initialPrice": 69.290001,
+      "estimatedMaturityDate": "2026-10-21",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00061713,
+      "changeFromPrevious": 3.5e-07,
       "decisionThreshold": 0.5,
       "contributions": [
         {
           "feature": "beta_60",
-          "probabilityContribution": 2.7e-07,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "ret_5",
-          "probabilityContribution": -2.2e-07,
+          "probabilityContribution": 2.2e-07,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "sma_50_ratio",
-          "probabilityContribution": 1e-07,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "spy_ret_20",
-          "probabilityContribution": -1e-07,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "spy_sma_200_ratio",
-          "probabilityContribution": -1e-07,
+          "probabilityContribution": 1.6e-07,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "vol_60",
-          "probabilityContribution": -9e-08,
+          "probabilityContribution": -1e-07,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "rsi_14",
+          "probabilityContribution": 8e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "spy_vol_60",
-          "probabilityContribution": 9e-08,
+          "probabilityContribution": 8e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "ret_5",
+          "probabilityContribution": -7e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "spy_ret_20",
+          "probabilityContribution": -7e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "vol_20",
-          "probabilityContribution": 7e-08,
+          "probabilityContribution": 6e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         }
       ]
     },
     {
-      "id": "2026-10-13:UBER:20:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
+      "id": "2026-10-14:UBER:20:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
       "ticker": "UBER",
       "horizonSessions": 20,
-      "probability": 0.50650726,
+      "probability": 0.5065073,
       "uncertainty": {
-        "low": 0.01650726,
-        "high": 0.99650726,
-        "ensembleStd": 0.00037681,
+        "low": 0.0165073,
+        "high": 0.9965073,
+        "ensembleStd": 0.00037677,
         "conformalRadius80": 0.50650728,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
-      "initialPrice": 71.32,
-      "estimatedMaturityDate": "2026-11-10",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "initialPrice": 69.290001,
+      "estimatedMaturityDate": "2026-11-11",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
-      "changeFromPrevious": -0.00091579,
+      "changeFromPrevious": 4e-08,
       "decisionThreshold": 0.5,
       "contributions": [
         {
           "feature": "beta_60",
-          "probabilityContribution": 4e-08,
+          "probabilityContribution": 3e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "sma_50_ratio",
+          "probabilityContribution": 2e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
           "feature": "ret_5",
-          "probabilityContribution": -3e-08,
+          "probabilityContribution": -1e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
-          "feature": "spy_ret_20",
-          "probabilityContribution": -2e-08,
+          "feature": "ret_20",
+          "probabilityContribution": 1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "probabilityContribution": -1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "rsi_14",
+          "probabilityContribution": 1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "vol_20",
+          "probabilityContribution": 1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "vol_60",
+          "probabilityContribution": -1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14:UBER:60:neural-v8-20260721-regularized-11875c1b6e",
+      "predictionDate": "2026-10-14",
+      "ticker": "UBER",
+      "horizonSessions": 60,
+      "probability": 0.52579996,
+      "uncertainty": {
+        "low": 0.03579996,
+        "high": 1,
+        "ensembleStd": 0.00175339,
+        "conformalRadius80": 0.52579996,
+        "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
+      },
+      "initialPrice": 69.290001,
+      "estimatedMaturityDate": "2027-01-06",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
+      "modelFamily": "persistent-neural-research-v8",
+      "modelRole": "champion",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
+      "status": "pending",
+      "changeFromPrevious": 1e-08,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "beta_60",
+          "probabilityContribution": 2e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "ret_20",
+          "probabilityContribution": 1e-08,
+          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
+        },
+        {
+          "feature": "ret_60",
+          "probabilityContribution": -1e-08,
           "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
         },
         {
@@ -5906,73 +5972,7 @@
       ]
     },
     {
-      "id": "2026-10-13:UBER:60:neural-v8-20260721-regularized-b71851ae54",
-      "predictionDate": "2026-10-13",
-      "ticker": "UBER",
-      "horizonSessions": 60,
-      "probability": 0.52579995,
-      "uncertainty": {
-        "low": 0.03579995,
-        "high": 1,
-        "ensembleStd": 0.00175341,
-        "conformalRadius80": 0.52579996,
-        "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
-      },
-      "initialPrice": 71.32,
-      "estimatedMaturityDate": "2027-01-05",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
-      "modelFamily": "persistent-neural-research-v8",
-      "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
-      "status": "pending",
-      "changeFromPrevious": -0.00048456,
-      "decisionThreshold": 0.5,
-      "contributions": [
-        {
-          "feature": "beta_60",
-          "probabilityContribution": 3e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "ret_5",
-          "probabilityContribution": -1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "ret_60",
-          "probabilityContribution": -1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "sma_50_ratio",
-          "probabilityContribution": 1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "vol_20",
-          "probabilityContribution": 1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "vol_60",
-          "probabilityContribution": -1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "drawdown_252",
-          "probabilityContribution": 1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        },
-        {
-          "feature": "spy_ret_20",
-          "probabilityContribution": -1e-08,
-          "method": "Probabilidad original menos probabilidad al reemplazar la variable por su media de entrenamiento"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-14:UNH:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UNH:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UNH",
       "horizonSessions": 5,
@@ -5986,11 +5986,11 @@
       },
       "initialPrice": 395.619995,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061692,
       "decisionThreshold": 0.5,
@@ -6038,7 +6038,7 @@
       ]
     },
     {
-      "id": "2026-10-14:UNH:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UNH:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UNH",
       "horizonSessions": 20,
@@ -6052,11 +6052,11 @@
       },
       "initialPrice": 395.619995,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091577,
       "decisionThreshold": 0.5,
@@ -6104,7 +6104,7 @@
       ]
     },
     {
-      "id": "2026-10-14:UNH:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UNH:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UNH",
       "horizonSessions": 60,
@@ -6118,11 +6118,11 @@
       },
       "initialPrice": 395.619995,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048455,
       "decisionThreshold": 0.5,
@@ -6170,7 +6170,7 @@
       ]
     },
     {
-      "id": "2026-10-14:UPS:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UPS:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UPS",
       "horizonSessions": 5,
@@ -6184,11 +6184,11 @@
       },
       "initialPrice": 95.779999,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061674,
       "decisionThreshold": 0.5,
@@ -6236,7 +6236,7 @@
       ]
     },
     {
-      "id": "2026-10-14:UPS:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UPS:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UPS",
       "horizonSessions": 20,
@@ -6250,11 +6250,11 @@
       },
       "initialPrice": 95.779999,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091575,
       "decisionThreshold": 0.5,
@@ -6302,7 +6302,7 @@
       ]
     },
     {
-      "id": "2026-10-14:UPS:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:UPS:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "UPS",
       "horizonSessions": 60,
@@ -6316,11 +6316,11 @@
       },
       "initialPrice": 95.779999,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048456,
       "decisionThreshold": 0.5,
@@ -6368,7 +6368,7 @@
       ]
     },
     {
-      "id": "2026-10-14:WMT:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:WMT:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "WMT",
       "horizonSessions": 5,
@@ -6382,11 +6382,11 @@
       },
       "initialPrice": 116.160004,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061756,
       "decisionThreshold": 0.5,
@@ -6434,7 +6434,7 @@
       ]
     },
     {
-      "id": "2026-10-14:WMT:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:WMT:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "WMT",
       "horizonSessions": 20,
@@ -6448,11 +6448,11 @@
       },
       "initialPrice": 116.160004,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091584,
       "decisionThreshold": 0.5,
@@ -6500,7 +6500,7 @@
       ]
     },
     {
-      "id": "2026-10-14:WMT:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:WMT:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "WMT",
       "horizonSessions": 60,
@@ -6514,11 +6514,11 @@
       },
       "initialPrice": 116.160004,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048456,
       "decisionThreshold": 0.5,
@@ -6566,7 +6566,7 @@
       ]
     },
     {
-      "id": "2026-10-14:XOM:5:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:XOM:5:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "XOM",
       "horizonSessions": 5,
@@ -6580,11 +6580,11 @@
       },
       "initialPrice": 177.009995,
       "estimatedMaturityDate": "2026-10-21",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00061707,
       "decisionThreshold": 0.5,
@@ -6632,7 +6632,7 @@
       ]
     },
     {
-      "id": "2026-10-14:XOM:20:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:XOM:20:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "XOM",
       "horizonSessions": 20,
@@ -6646,11 +6646,11 @@
       },
       "initialPrice": 177.009995,
       "estimatedMaturityDate": "2026-11-11",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00091577,
       "decisionThreshold": 0.5,
@@ -6698,7 +6698,7 @@
       ]
     },
     {
-      "id": "2026-10-14:XOM:60:neural-v8-20260721-regularized-b71851ae54",
+      "id": "2026-10-14:XOM:60:neural-v8-20260721-regularized-11875c1b6e",
       "predictionDate": "2026-10-14",
       "ticker": "XOM",
       "horizonSessions": 60,
@@ -6706,17 +6706,17 @@
       "uncertainty": {
         "low": 0.03580002,
         "high": 1,
-        "ensembleStd": 0.00175334,
+        "ensembleStd": 0.00175333,
         "conformalRadius80": 0.52579996,
         "method": "Desacuerdo del deep ensemble + residual split-conformal temporal al 80%; no es garantía"
       },
       "initialPrice": 177.009995,
       "estimatedMaturityDate": "2027-01-06",
-      "modelVersion": "neural-v8-20260721-regularized-b71851ae54",
+      "modelVersion": "neural-v8-20260721-regularized-11875c1b6e",
       "modelFamily": "persistent-neural-research-v8",
       "modelRole": "champion",
-      "modelHash": "sha256:8d269d852439b63efb845a205e7c316f8ac24d5afdec213fc580d8fbf68787d4",
-      "dataHash": "sha256:52548dcaa6264e135c78133959928aade70b72c086e4801fef103996c073427a",
+      "modelHash": "sha256:fbc0443bcc8772fad24bece87fc6bdb0f37ca44608c8a2ea6e6b0599c5c8886f",
+      "dataHash": "sha256:24efcdeffcc251a026a8851ba611a34d182a995a5b8fe3ace520ff22f069e62d",
       "status": "pending",
       "changeFromPrevious": -0.00048449,
       "decisionThreshold": 0.5,
@@ -6765,8 +6765,8 @@
     }
   ],
   "ledger": {
-    "records": 5376,
-    "evaluated": 2492
+    "records": 5472,
+    "evaluated": 2496
   },
   "globalSensitivity": [
     {
