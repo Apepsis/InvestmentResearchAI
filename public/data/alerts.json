@@ -1,22 +1,25 @@
 {
-  "generatedAt": "2026-10-21T00:42:26+00:00",
-  "mode": "live",
+  "generatedAt": "2026-10-21T17:53:45+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 1,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260724-regularized-5bb3b79012 aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "d62ea019755df3e256e9",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "NFLX",
+      "title": "Caída extraordinaria para revisar: NFLX",
+      "message": "NFLX registra -6.04% desde la referencia diaria (69.85 → 65.63 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 65.63,
+      "referencePrice": 69.85,
+      "change": -0.06041518
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 1,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -207,7 +210,16 @@
       "severity": "critical",
       "sentAt": "2026-10-20T20:54:40+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "d62ea019755df3e256e9",
+      "code": "intraday_price_drop",
+      "ticker": "NFLX",
+      "severity": "critical",
+      "sentAt": "2026-10-21T17:53:45+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
