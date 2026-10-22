@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T17:50:41+00:00",
+  "generatedAt": "2026-10-22T20:52:00+00:00",
   "mode": "intraday",
   "deliveryEnabled": true,
   "deliveryStatus": "sent",
@@ -7,16 +7,28 @@
   "newAlertsSent": 1,
   "candidates": [
     {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "INTC",
+      "title": "Caída extraordinaria para revisar: INTC",
+      "message": "INTC registra -7.57% desde la referencia diaria (91.69 → 84.75 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 84.75,
+      "referencePrice": 91.69,
+      "change": -0.07568982
+    },
+    {
       "fingerprint": "4394e2e485724e41caff",
       "code": "intraday_price_drop",
       "severity": "critical",
       "ticker": "META",
       "title": "Caída extraordinaria para revisar: META",
-      "message": "META registra -6.92% desde la referencia diaria (694.25 → 646.24 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "message": "META registra -6.84% desde la referencia diaria (694.25 → 646.74 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
       "cooldownHours": 4,
-      "observedPrice": 646.235,
+      "observedPrice": 646.74,
       "referencePrice": 694.25,
-      "change": -0.06916097
+      "change": -0.06843356
     }
   ],
   "pendingAfterCooldown": 1,
@@ -225,6 +237,14 @@
       "ticker": "META",
       "severity": "critical",
       "sentAt": "2026-10-22T17:50:41+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "ticker": "INTC",
+      "severity": "critical",
+      "sentAt": "2026-10-22T20:52:00+00:00",
       "mode": "intraday"
     }
   ],
