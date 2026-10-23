@@ -1,37 +1,22 @@
 {
-  "generatedAt": "2026-10-22T20:52:00+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-10-23T00:45:20+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 1,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "dc9b706d6c2f420fabce",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "INTC",
-      "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -7.57% desde la referencia diaria (91.69 → 84.75 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 84.75,
-      "referencePrice": 91.69,
-      "change": -0.07568982
-    },
-    {
-      "fingerprint": "4394e2e485724e41caff",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "META",
-      "title": "Caída extraordinaria para revisar: META",
-      "message": "META registra -6.84% desde la referencia diaria (694.25 → 646.74 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 646.74,
-      "referencePrice": 694.25,
-      "change": -0.06843356
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260728-regularized-77ab474c1b aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 1,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -248,6 +233,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
