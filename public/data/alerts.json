@@ -1,61 +1,22 @@
 {
-  "generatedAt": "2026-10-23T17:41:33+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-10-24T00:48:41+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 4,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "4394e2e485724e41caff",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "META",
-      "title": "Caída extraordinaria para revisar: META",
-      "message": "META registra -7.49% desde la referencia diaria (697.52 → 645.27 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 645.275,
-      "referencePrice": 697.52,
-      "change": -0.07490108
-    },
-    {
-      "fingerprint": "619961fc108d90ec1912",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "CAT",
-      "title": "Caída extraordinaria para revisar: CAT",
-      "message": "CAT registra -7.31% desde la referencia diaria (740.21 → 686.07 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 686.065,
-      "referencePrice": 740.21,
-      "change": -0.07314816
-    },
-    {
-      "fingerprint": "dc9b706d6c2f420fabce",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "INTC",
-      "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -6.69% desde la referencia diaria (92.96 → 86.74 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 86.74,
-      "referencePrice": 92.96,
-      "change": -0.0669105
-    },
-    {
-      "fingerprint": "398db8f8eb7137c6aebf",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "AMD",
-      "title": "Caída extraordinaria para revisar: AMD",
-      "message": "AMD registra -6.56% desde la referencia diaria (552.72 → 516.44 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 516.44,
-      "referencePrice": 552.72,
-      "change": -0.06563902
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260729-regularized-e0254a8aaa aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 4,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -304,6 +265,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
