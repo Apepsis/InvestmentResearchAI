@@ -1,74 +1,74 @@
 {
-  "generatedAt": "2026-10-24T00:48:41+00:00",
+  "generatedAt": "2026-10-25T00:24:27+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
     "predictionCoverage": 1.0,
     "predictionsPublished": 96,
     "predictionsExpected": 96,
-    "marketDataAgeHours": 0.015,
+    "marketDataAgeHours": 0.012,
     "providerErrors": 0
   },
   "featureDrift": {
-    "maximumAbsoluteShift": 0.62748,
+    "maximumAbsoluteShift": 0.5891,
     "thresholdWarning": 2.0,
     "thresholdCritical": 3.0,
     "topShifts": [
       {
-        "feature": "volume_z_20",
-        "referenceMean": -0.00142026,
-        "latestMean": 0.65955258,
-        "standardizedShift": 0.62748
+        "feature": "spy_ret_20",
+        "referenceMean": 0.01246592,
+        "latestMean": -0.01475336,
+        "standardizedShift": -0.5891
       },
       {
         "feature": "spy_vol_60",
-        "referenceMean": 0.15915701,
-        "latestMean": 0.10803762,
-        "standardizedShift": -0.53128
+        "referenceMean": 0.15915245,
+        "latestMean": 0.10349101,
+        "standardizedShift": -0.57863
       },
       {
-        "feature": "beta_60",
-        "referenceMean": 1.09033534,
-        "latestMean": 0.8289029,
-        "standardizedShift": -0.47997
+        "feature": "volume_z_20",
+        "referenceMean": -0.00165404,
+        "latestMean": -0.51731736,
+        "standardizedShift": -0.48957
       },
       {
         "feature": "drawdown_252",
-        "referenceMean": -0.11860756,
-        "latestMean": -0.16617081,
-        "standardizedShift": -0.3717
+        "referenceMean": -0.11859311,
+        "latestMean": -0.17492569,
+        "standardizedShift": -0.44025
       },
       {
-        "feature": "spy_ret_20",
-        "referenceMean": 0.01245981,
-        "latestMean": -0.00419715,
-        "standardizedShift": -0.36042
+        "feature": "beta_60",
+        "referenceMean": 1.090339,
+        "latestMean": 0.87455727,
+        "standardizedShift": -0.39606
       },
       {
         "feature": "sma_50_ratio",
-        "referenceMean": 0.01839664,
-        "latestMean": -0.00011172,
-        "standardizedShift": -0.2243
+        "referenceMean": 0.01840674,
+        "latestMean": -0.00885684,
+        "standardizedShift": -0.33046
+      },
+      {
+        "feature": "ret_20",
+        "referenceMean": 0.01864947,
+        "latestMean": -0.00673151,
+        "standardizedShift": -0.26893
       },
       {
         "feature": "sma_200_ratio",
-        "referenceMean": 0.0740924,
-        "latestMean": 0.03664135,
-        "standardizedShift": -0.20656
-      },
-      {
-        "feature": "spy_ret_60",
-        "referenceMean": 0.03563681,
-        "latestMean": 0.04989587,
-        "standardizedShift": 0.20005
+        "referenceMean": 0.07410264,
+        "latestMean": 0.02774477,
+        "standardizedShift": -0.25572
       }
     ]
   },
   "performance": {
-    "evaluatedPredictions": 1928,
+    "evaluatedPredictions": 1992,
     "recentWindow": 120,
-    "accuracy": 0.266667,
-    "brierScore": 0.254715,
+    "accuracy": 0.283333,
+    "brierScore": 0.253972,
     "minimumWindowForAlert": 30
   },
   "governance": {
