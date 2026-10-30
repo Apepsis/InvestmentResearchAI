@@ -1,22 +1,49 @@
 {
-  "generatedAt": "2026-10-30T02:01:51+00:00",
-  "mode": "live",
+  "generatedAt": "2026-10-30T18:24:53+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 3,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260805-regularized-0e388f6445 aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "INTC",
+      "title": "Caída extraordinaria para revisar: INTC",
+      "message": "INTC registra -30.63% desde la referencia diaria (92.07 → 63.87 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 63.865,
+      "referencePrice": 92.07,
+      "change": -0.306343
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "AMD",
+      "title": "Caída extraordinaria para revisar: AMD",
+      "message": "AMD registra -12.33% desde la referencia diaria (566.42 → 496.56 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 496.565,
+      "referencePrice": 566.42,
+      "change": -0.12332721
+    },
+    {
+      "fingerprint": "0928580ad1214459972e",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "ORCL",
+      "title": "Caída extraordinaria para revisar: ORCL",
+      "message": "ORCL registra -6.80% desde la referencia diaria (139.56 → 130.07 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 130.07,
+      "referencePrice": 139.56,
+      "change": -0.06799943
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 3,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -318,7 +345,32 @@
       "severity": "critical",
       "sentAt": "2026-10-29T18:47:35+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "ticker": "INTC",
+      "severity": "critical",
+      "sentAt": "2026-10-30T18:24:53+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "ticker": "AMD",
+      "severity": "critical",
+      "sentAt": "2026-10-30T18:24:53+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "0928580ad1214459972e",
+      "code": "intraday_price_drop",
+      "ticker": "ORCL",
+      "severity": "critical",
+      "sentAt": "2026-10-30T18:24:53+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
