@@ -1,22 +1,37 @@
 {
-  "generatedAt": "2026-11-02T01:35:48+00:00",
-  "mode": "live",
+  "generatedAt": "2026-11-02T22:07:43+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 2,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260806-regularized-c1d3b31dcc aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "INTC",
+      "title": "Caída extraordinaria para revisar: INTC",
+      "message": "INTC registra -8.61% desde la referencia diaria (65.76 → 60.10 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 60.1,
+      "referencePrice": 65.76,
+      "change": -0.08607056
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "AMD",
+      "title": "Caída extraordinaria para revisar: AMD",
+      "message": "AMD registra -7.02% desde la referencia diaria (504.80 → 469.36 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 469.36,
+      "referencePrice": 504.8,
+      "change": -0.07020602
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 2,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -342,7 +357,24 @@
       "severity": "critical",
       "sentAt": "2026-10-30T18:24:53+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "ticker": "INTC",
+      "severity": "critical",
+      "sentAt": "2026-11-02T22:07:43+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "ticker": "AMD",
+      "severity": "critical",
+      "sentAt": "2026-11-02T22:07:43+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
