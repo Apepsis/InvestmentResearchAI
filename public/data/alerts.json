@@ -1,37 +1,22 @@
 {
-  "generatedAt": "2026-11-02T22:07:43+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-11-03T03:31:20+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 2,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "dc9b706d6c2f420fabce",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "INTC",
-      "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -8.61% desde la referencia diaria (65.76 → 60.10 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 60.1,
-      "referencePrice": 65.76,
-      "change": -0.08607056
-    },
-    {
-      "fingerprint": "398db8f8eb7137c6aebf",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "AMD",
-      "title": "Caída extraordinaria para revisar: AMD",
-      "message": "AMD registra -7.02% desde la referencia diaria (504.80 → 469.36 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 469.36,
-      "referencePrice": 504.8,
-      "change": -0.07020602
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260807-regularized-a6a76c66c9 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 2,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -375,6 +360,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
