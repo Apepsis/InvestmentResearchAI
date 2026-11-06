@@ -1,97 +1,22 @@
 {
-  "generatedAt": "2026-11-05T20:27:59+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-11-06T02:34:58+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 7,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "398db8f8eb7137c6aebf",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "AMD",
-      "title": "Caída extraordinaria para revisar: AMD",
-      "message": "AMD registra -14.94% desde la referencia diaria (488.78 → 415.77 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 415.77,
-      "referencePrice": 488.78,
-      "change": -0.14937191
-    },
-    {
-      "fingerprint": "77b4ea2ba3f19c3cf4ae",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "TSLA",
-      "title": "Caída extraordinaria para revisar: TSLA",
-      "message": "TSLA registra -10.72% desde la referencia diaria (385.19 → 343.91 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 343.91,
-      "referencePrice": 385.19,
-      "change": -0.10716789
-    },
-    {
-      "fingerprint": "643ec636b88bff289553",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "NVDA",
-      "title": "Caída extraordinaria para revisar: NVDA",
-      "message": "NVDA registra -8.21% desde la referencia diaria (200.13 → 183.71 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 183.705,
-      "referencePrice": 200.13,
-      "change": -0.08207165
-    },
-    {
-      "fingerprint": "dc9b706d6c2f420fabce",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "INTC",
-      "title": "Caída extraordinaria para revisar: INTC",
-      "message": "INTC registra -7.85% desde la referencia diaria (58.27 → 53.70 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 53.695,
-      "referencePrice": 58.27,
-      "change": -0.07851381
-    },
-    {
-      "fingerprint": "0928580ad1214459972e",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "ORCL",
-      "title": "Caída extraordinaria para revisar: ORCL",
-      "message": "ORCL registra -6.61% desde la referencia diaria (123.73 → 115.55 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 115.55,
-      "referencePrice": 123.73,
-      "change": -0.06611169
-    },
-    {
-      "fingerprint": "7894672302052161cd67",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "GS",
-      "title": "Caída extraordinaria para revisar: GS",
-      "message": "GS registra -6.07% desde la referencia diaria (928.00 → 871.69 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 871.69,
-      "referencePrice": 928.0,
-      "change": -0.06067888
-    },
-    {
-      "fingerprint": "c45de6c91de20c5896ba",
-      "code": "intraday_market_shock",
-      "severity": "critical",
-      "ticker": "SPY",
-      "title": "Shock intradía del mercado",
-      "message": "SPY registra -4.00% desde la referencia diaria (766.81 → 736.16 USD). Revisar exposición, correlaciones y límites de riesgo.",
-      "cooldownHours": 4,
-      "observedPrice": 736.16,
-      "referencePrice": 766.81,
-      "change": -0.03997079
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260812-regularized-635a78f71c aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 7,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -491,6 +416,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
