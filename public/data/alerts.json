@@ -1,37 +1,22 @@
 {
-  "generatedAt": "2026-11-06T19:50:36+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-11-07T02:01:14+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 2,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "9e308cebf10a155b5545",
-      "code": "intraday_price_surge",
-      "severity": "warning",
-      "ticker": "AMD",
-      "title": "Subida extraordinaria para revisar: AMD",
-      "message": "AMD registra +10.26% desde la referencia diaria (404.40 → 445.88 USD). Comprobar si existe evento material y riesgo de reversión.",
-      "cooldownHours": 4,
-      "observedPrice": 445.88,
-      "referencePrice": 404.4,
-      "change": 0.10257171
-    },
-    {
-      "fingerprint": "0b950a4f90d8812f9daf",
-      "code": "intraday_price_surge",
-      "severity": "warning",
-      "ticker": "INTC",
-      "title": "Subida extraordinaria para revisar: INTC",
-      "message": "INTC registra +8.56% desde la referencia diaria (52.25 → 56.73 USD). Comprobar si existe evento material y riesgo de reversión.",
-      "cooldownHours": 4,
-      "observedPrice": 56.725,
-      "referencePrice": 52.25,
-      "change": 0.08564593
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260813-regularized-5cf7956b2d aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 2,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -447,6 +432,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
