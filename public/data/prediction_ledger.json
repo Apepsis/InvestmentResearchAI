@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T02:01:02.342858+00:00",
+  "generatedAt": "2026-11-08T01:31:03.602696+00:00",
   "mode": "live",
   "policy": "Los campos de publicación son inmutables; únicamente se completan resultado y evaluación al madurar el horizonte.",
   "immutableFields": [
@@ -13,8 +13,8 @@
     "modelVersion",
     "dataHash"
   ],
-  "recordCount": 4953,
-  "evaluatedCount": 2564,
+  "recordCount": 4959,
+  "evaluatedCount": 2568,
   "records": [
     {
       "id": "2026-08-21:AAPL:5:transparent-research-v5.0",
@@ -311297,7 +311297,7 @@
       "estimatedMaturityDate": "2026-11-06",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:09337653908451346c89adea61989df5eb6f64ec6404b61237d1a12e690c9344",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.000763,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -311373,7 +311373,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-11-06",
+      "finalPrice": 610.150024,
+      "assetReturn": -0.1510011,
+      "spyReturn": -0.05558913,
+      "excessReturn": -0.09541197,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-10-09:META:60:transparent-research-v5.0",
@@ -313634,7 +313641,7 @@
       "estimatedMaturityDate": "2026-11-06",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:09337653908451346c89adea61989df5eb6f64ec6404b61237d1a12e690c9344",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.001516,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -313710,7 +313717,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-11-06",
+      "finalPrice": 68.589996,
+      "assetReturn": -0.04083353,
+      "spyReturn": -0.05558913,
+      "excessReturn": 0.0147556,
+      "outcome": 1,
+      "correct": false
     },
     {
       "id": "2026-10-09:UBER:60:transparent-research-v5.0",
@@ -430822,7 +430836,7 @@
       "estimatedMaturityDate": "2026-11-06",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:e79e1f75c3bfd670d3644b0afe0e5f6bc45d3d80166395f422d9f4dbee468632",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.005231,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -430898,7 +430912,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-11-06",
+      "finalPrice": 610.150024,
+      "assetReturn": -0.00786999,
+      "spyReturn": -0.02703381,
+      "excessReturn": 0.01916382,
+      "outcome": 1,
+      "correct": true
     },
     {
       "id": "2026-10-30:META:20:transparent-research-v5.0",
@@ -433103,7 +433124,7 @@
       "estimatedMaturityDate": "2026-11-06",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:e79e1f75c3bfd670d3644b0afe0e5f6bc45d3d80166395f422d9f4dbee468632",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000646,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -433179,7 +433200,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-11-06",
+      "finalPrice": 68.589996,
+      "assetReturn": 0.05118768,
+      "spyReturn": -0.02703381,
+      "excessReturn": 0.07822149,
+      "outcome": 1,
+      "correct": true
     },
     {
       "id": "2026-10-30:UBER:20:transparent-research-v5.0",
@@ -475525,6 +475553,285 @@
       ]
     },
     {
+      "id": "2026-11-06:META:5:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "META",
+      "horizonSessions": 5,
+      "probability": 0.514211,
+      "uncertainty": {
+        "low": 0.432439,
+        "high": 0.595984,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 610.150024,
+      "estimatedMaturityDate": "2026-11-13",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": -3.6e-05,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "sma_50_ratio",
+          "rawValue": -0.09576447,
+          "standardizedValue": -1.346916,
+          "coefficient": -0.019038,
+          "logitContribution": 0.025431,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.420487,
+          "coefficient": -0.016481,
+          "logitContribution": 0.023218,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "rsi_14",
+          "rawValue": 0.36740112,
+          "standardizedValue": -1.336063,
+          "coefficient": 0.017425,
+          "logitContribution": -0.023087,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_60",
+          "rawValue": -0.0524042,
+          "standardizedValue": -1.202995,
+          "coefficient": -0.014996,
+          "logitContribution": 0.017891,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.03327464,
+          "standardizedValue": -0.594648,
+          "coefficient": 0.025759,
+          "logitContribution": -0.015191,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.63896,
+          "coefficient": -0.022878,
+          "logitContribution": 0.014497,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.21533198,
+          "standardizedValue": -0.703659,
+          "coefficient": -0.009599,
+          "logitContribution": 0.006698,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_20",
+          "rawValue": -0.1510011,
+          "standardizedValue": -1.751384,
+          "coefficient": 0.003198,
+          "logitContribution": -0.005554,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06:META:20:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "META",
+      "horizonSessions": 20,
+      "probability": 0.503448,
+      "uncertainty": {
+        "low": 0.421641,
+        "high": 0.585254,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 610.150024,
+      "estimatedMaturityDate": "2026-12-04",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": 0.000256,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.416472,
+          "coefficient": -0.021935,
+          "logitContribution": 0.030187,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_60",
+          "rawValue": -0.0524042,
+          "standardizedValue": -1.197759,
+          "coefficient": -0.022787,
+          "logitContribution": 0.026517,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.21533198,
+          "standardizedValue": -0.703765,
+          "coefficient": -0.031814,
+          "logitContribution": 0.021753,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.03327464,
+          "standardizedValue": -0.59492,
+          "coefficient": 0.03743,
+          "logitContribution": -0.021634,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.633944,
+          "coefficient": -0.035067,
+          "logitContribution": 0.021598,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "rsi_14",
+          "rawValue": 0.36740112,
+          "standardizedValue": -1.34131,
+          "coefficient": 0.015986,
+          "logitContribution": -0.020831,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_50_ratio",
+          "rawValue": -0.09576447,
+          "standardizedValue": -1.350762,
+          "coefficient": -0.014128,
+          "logitContribution": 0.018541,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_20",
+          "rawValue": -0.1510011,
+          "standardizedValue": -1.753893,
+          "coefficient": -0.008268,
+          "logitContribution": 0.014089,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06:META:60:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "META",
+      "horizonSessions": 60,
+      "probability": 0.471042,
+      "uncertainty": {
+        "low": 0.389351,
+        "high": 0.552733,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 610.150024,
+      "estimatedMaturityDate": "2027-01-29",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": -0.002966,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.21533198,
+          "standardizedValue": -0.699099,
+          "coefficient": -0.057087,
+          "logitContribution": 0.036694,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "rsi_14",
+          "rawValue": 0.36740112,
+          "standardizedValue": -1.339761,
+          "coefficient": 0.029596,
+          "logitContribution": -0.036457,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.401849,
+          "coefficient": -0.027308,
+          "logitContribution": 0.035197,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "beta_60",
+          "rawValue": 1.40241557,
+          "standardizedValue": 0.575257,
+          "coefficient": 0.059099,
+          "logitContribution": 0.031258,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "vol_60",
+          "rawValue": 0.44719275,
+          "standardizedValue": 0.860552,
+          "coefficient": -0.037668,
+          "logitContribution": -0.029803,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.03327464,
+          "standardizedValue": -0.591019,
+          "coefficient": 0.039155,
+          "logitContribution": -0.021277,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_20",
+          "rawValue": -0.1510011,
+          "standardizedValue": -1.751245,
+          "coefficient": -0.009367,
+          "logitContribution": 0.015082,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.619118,
+          "coefficient": -0.02009,
+          "logitContribution": 0.011436,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
       "id": "2026-11-06:MSFT:5:transparent-research-v5.0",
       "predictionDate": "2026-11-06",
       "ticker": "MSFT",
@@ -477472,6 +477779,285 @@
           "standardizedValue": 1.490004,
           "coefficient": 0.012145,
           "logitContribution": 0.016638,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06:UBER:5:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "UBER",
+      "horizonSessions": 5,
+      "probability": 0.508636,
+      "uncertainty": {
+        "low": 0.426862,
+        "high": 0.59041,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 68.589996,
+      "estimatedMaturityDate": "2026-11-13",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": 0.001587,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.420487,
+          "coefficient": -0.016481,
+          "logitContribution": 0.023218,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.05965616,
+          "standardizedValue": -0.740106,
+          "coefficient": 0.025759,
+          "logitContribution": -0.018906,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_60",
+          "rawValue": -0.0524042,
+          "standardizedValue": -1.202995,
+          "coefficient": -0.014996,
+          "logitContribution": 0.017891,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_5",
+          "rawValue": 0.05118768,
+          "standardizedValue": 0.974787,
+          "coefficient": -0.017835,
+          "logitContribution": -0.017241,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.63896,
+          "coefficient": -0.022878,
+          "logitContribution": 0.014497,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.27109461,
+          "standardizedValue": -1.132028,
+          "coefficient": -0.009599,
+          "logitContribution": 0.010776,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_50_ratio",
+          "rawValue": -0.02216284,
+          "standardizedValue": -0.475717,
+          "coefficient": -0.019038,
+          "logitContribution": 0.008982,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "beta_60",
+          "rawValue": 0.50888454,
+          "standardizedValue": -1.070549,
+          "coefficient": 0.004953,
+          "logitContribution": -0.005259,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06:UBER:20:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "UBER",
+      "horizonSessions": 20,
+      "probability": 0.498717,
+      "uncertainty": {
+        "low": 0.41691,
+        "high": 0.580525,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 68.589996,
+      "estimatedMaturityDate": "2026-12-04",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": 0.000953,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.27109461,
+          "standardizedValue": -1.132152,
+          "coefficient": -0.031814,
+          "logitContribution": 0.034994,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.416472,
+          "coefficient": -0.021935,
+          "logitContribution": 0.030187,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.05965616,
+          "standardizedValue": -0.740545,
+          "coefficient": 0.03743,
+          "logitContribution": -0.026929,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_60",
+          "rawValue": -0.0524042,
+          "standardizedValue": -1.197759,
+          "coefficient": -0.022787,
+          "logitContribution": 0.026517,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.633944,
+          "coefficient": -0.035067,
+          "logitContribution": 0.021598,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_60",
+          "rawValue": -0.09607276,
+          "standardizedValue": -0.879874,
+          "coefficient": 0.023503,
+          "logitContribution": -0.020091,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "beta_60",
+          "rawValue": 0.50888454,
+          "standardizedValue": -1.073736,
+          "coefficient": 0.014905,
+          "logitContribution": -0.015549,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_50_ratio",
+          "rawValue": -0.02216284,
+          "standardizedValue": -0.477697,
+          "coefficient": -0.014128,
+          "logitContribution": 0.006557,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06:UBER:60:transparent-research-v5.0",
+      "predictionDate": "2026-11-06",
+      "ticker": "UBER",
+      "horizonSessions": 60,
+      "probability": 0.454015,
+      "uncertainty": {
+        "low": 0.372341,
+        "high": 0.535688,
+        "method": "Banda empírica por calibración y tamaño de muestra; no es garantía"
+      },
+      "initialPrice": 68.589996,
+      "estimatedMaturityDate": "2027-01-29",
+      "modelVersion": "transparent-research-v5.0",
+      "dataHash": "sha256:e6b308f1b9d145a4695d0d21be15b111dd99b1180a90d2dd364ad1a2b5002d57",
+      "status": "pending",
+      "changeFromPrevious": -0.00163,
+      "decisionThreshold": 0.5,
+      "contributions": [
+        {
+          "feature": "drawdown_252",
+          "rawValue": -0.27109461,
+          "standardizedValue": -1.127006,
+          "coefficient": -0.057087,
+          "logitContribution": 0.059153,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "beta_60",
+          "rawValue": 0.50888454,
+          "standardizedValue": -1.082735,
+          "coefficient": 0.059099,
+          "logitContribution": -0.058832,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_60",
+          "rawValue": -0.09607276,
+          "standardizedValue": -0.872459,
+          "coefficient": 0.047199,
+          "logitContribution": -0.037861,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_ret_20",
+          "rawValue": -0.05558913,
+          "standardizedValue": -1.401849,
+          "coefficient": -0.027308,
+          "logitContribution": 0.035197,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "sma_200_ratio",
+          "rawValue": -0.05965616,
+          "standardizedValue": -0.736319,
+          "coefficient": 0.039155,
+          "logitContribution": -0.026507,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "ret_5",
+          "rawValue": 0.05118768,
+          "standardizedValue": 0.974604,
+          "coefficient": -0.014091,
+          "logitContribution": -0.012627,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_sma_200_ratio",
+          "rawValue": 0.01050532,
+          "standardizedValue": -0.619118,
+          "coefficient": -0.02009,
+          "logitContribution": 0.011436,
+          "formula": "z(feature) × coeficiente × pendiente_calibración",
+          "source": "Precios ajustados point-in-time; feature_store.json"
+        },
+        {
+          "feature": "spy_vol_60",
+          "rawValue": 0.13815542,
+          "standardizedValue": -0.291248,
+          "coefficient": -0.027336,
+          "logitContribution": 0.00732,
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
