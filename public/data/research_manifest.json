@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T03:09:54+00:00",
+  "generatedAt": "2026-11-13T02:42:28+00:00",
   "mode": "live",
-  "runId": "20261112T030954Z-bfe4dbc9",
+  "runId": "20261113T024228Z-b7f70dde",
   "modelVersion": "persistent-neural-research-v8",
-  "gitCommit": "75149b5f07e9",
-  "dataHash": "sha256:bfe4dbc94c083b944b1e81ef186e0c906f413b7ef2c364ddcc0dd601af401d8a",
+  "gitCommit": "63f13a18ce39",
+  "dataHash": "sha256:b7f70dde6771b6354d25a5cb52616e176bd86b7a974e7b6b5f48c51c8344c92d",
   "horizon": "5, 20 y 60 sesiones",
   "assetsProcessed": 33,
   "assetsExpected": 33,
@@ -12,55 +12,55 @@
   "nonCriticalErrors": 0,
   "testsPassed": 27,
   "dataCoverage": 100.0,
-  "durationSeconds": 120.97,
-  "predictionsPublished": 5241,
-  "predictionsEvaluated": 2730,
+  "durationSeconds": 123.77,
+  "predictionsPublished": 5337,
+  "predictionsEvaluated": 2794,
   "alertsDetected": 1,
   "alertDeliveryStatus": "no-new-alerts",
   "artifacts": [
     {
       "name": "market.json",
-      "sha256": "98ab82d0b9728abae743f5b507c7facee52ad8af71286d1d0f4497a174e8d4f3",
-      "bytes": 434440
+      "sha256": "edbab5c062272f1c8c8e47d0c990b6291fd68f3a3bf0f6afa300490a8a7ed6cf",
+      "bytes": 433757
     },
     {
       "name": "backtest.json",
-      "sha256": "a613da6637dd13ed94ae43c078442dd52f1fe39ea2de84ae3935644c38035e51",
-      "bytes": 33265
+      "sha256": "c3d7124123beb4c15a97aeaf1ab2c23e41235e8b674195215c2c542fa4c462a2",
+      "bytes": 33261
     },
     {
       "name": "risk_model.json",
-      "sha256": "c4833b877ae765578b0b9eeb97819994b06f276b33707daa2e9f82d01e3c4334",
-      "bytes": 467090
+      "sha256": "7c40ca797c233cd269077a4c4a8164881e02b5f4eb6985f7285ad27cb2b7f330",
+      "bytes": 467165
     },
     {
       "name": "event_studies.json",
-      "sha256": "b73e6114cce57ea036d14e72c2e9a7594e15ae16d7a2ef403645505c281f8ec5",
-      "bytes": 129437
+      "sha256": "06c4cd5639f4032b3e5612190274fda1e03a5dbc41a13b3cddf62bc75699103e",
+      "bytes": 129107
     },
     {
       "name": "live_predictions.json",
-      "sha256": "66dd2d238e07d6eef5cbc9433dc65864569d1ac2366dd6f25d9dc91027015d9f",
-      "bytes": 345211
+      "sha256": "dcd06db71c290444ec34bca661e3c0f7dbb499118653fdf2a2366e990ad98652",
+      "bytes": 345506
     },
     {
       "name": "prediction_ledger.json",
-      "sha256": "22348b9d041929b65daa9397f23143f24a1068897bf13959bd33c5fbc44bfc50",
-      "bytes": 19345868
+      "sha256": "c834ad06bd687c5dc7edbd4f81855b44171bd7e6ea36eb2ba7ea3ef48aaab12e",
+      "bytes": 19703320
     },
     {
       "name": "model_registry.json",
-      "sha256": "b8885488452904f02bbcff41a8eb310a3ca312293dd5850c3ed0ae86abd2b114",
+      "sha256": "bf0192e656185baf185598e5f941f6ef999dd4c8b4e7982c74bccd7912643134",
       "bytes": 19655
     },
     {
       "name": "model_monitoring.json",
-      "sha256": "6364fecdad8b8fbcfc5ee4cd7f5c4b51108c6bbcf302cd731514492ed55cc114",
-      "bytes": 2071
+      "sha256": "286c1ed544895b7f3e1b2052c468dba4c4123975333778a4bf28041f9c34b90c",
+      "bytes": 2072
     },
     {
       "name": "alerts.json",
-      "sha256": "7da67fc2f2715a9d1978cb1feba465618bb67b6913d9e41c8e98afbd847e64a6",
+      "sha256": "3b8d1b67535437d7b95cffb4eebfd9381c8904ad3e9c30ae8a6e1e8cc8124384",
       "bytes": 12672
     },
     {
@@ -70,33 +70,33 @@
     },
     {
       "name": "fast_signals.json",
-      "sha256": "c42e2da41805db31fcf5dd9ac4088471391c7ccccf31a458dbb15e03d542c537",
-      "bytes": 234568
+      "sha256": "a2402ed71e20eaedcf84e2f7d2107c82b7d52f909a8535c64b1b4383fcaac864",
+      "bytes": 233853
     },
     {
       "name": "neural_lab.json",
-      "sha256": "374822aa44168b6d2976fc2991096b78a4ac6230cbfb4cd968860c9e6f66f3fb",
-      "bytes": 283734
+      "sha256": "c4070b665a442cea401ce03b955380be85a94d12e64391d561c795cdaedc55b1",
+      "bytes": 280321
     },
     {
       "name": "neural_prediction_ledger.json",
-      "sha256": "c1b4cb312d58423dbf95ca497e169acba464007220f2b71f4bb3deb329cb8d5d",
-      "bytes": 23226943
+      "sha256": "daf8ac0d9b2af58519662e149ca902aa1fa62f58879e93103d54169a57835f50",
+      "bytes": 23505134
     },
     {
       "name": "models/champion.json",
-      "sha256": "0a6dc1ef2ab12b719701073db2efbdacc2927534795870b668aa696d1939de84",
-      "bytes": 102745
+      "sha256": "d3e71e770f41c6203ee61163681a8eff3dc67e9c34dd43400daf364be4db4097",
+      "bytes": 99463
     },
     {
       "name": "models/neural_registry.json",
-      "sha256": "8b24f420fdada048ea9f2afe6461ac8823c54d40dc77cd6cb67ea04bb3b35223",
+      "sha256": "e21613747d2b2b4fe7eed733f3f37d70ad60dd5495aa1723326d6c3c4b1c0c8c",
       "bytes": 1047
     },
     {
       "name": "models/challengers/incumbent.json",
-      "sha256": "f636b8d0137ee80e6a96d9affe18c3a79fd1f59e9a644dd7850f86cac1a15616",
-      "bytes": 114406
+      "sha256": "af40cd64dae00cd003a216e27b2963da0bae70e5ac7fe695e251dd7bc473cdb4",
+      "bytes": 115853
     }
   ]
 }
