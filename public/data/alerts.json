@@ -1,25 +1,22 @@
 {
-  "generatedAt": "2026-11-13T20:19:02+00:00",
-  "mode": "intraday",
+  "generatedAt": "2026-11-14T02:30:36+00:00",
+  "mode": "live",
   "deliveryEnabled": true,
-  "deliveryStatus": "sent",
+  "deliveryStatus": "no-new-alerts",
   "deliveryErrorClass": null,
-  "newAlertsSent": 1,
+  "newAlertsSent": 0,
   "candidates": [
     {
-      "fingerprint": "398db8f8eb7137c6aebf",
-      "code": "intraday_price_drop",
-      "severity": "critical",
-      "ticker": "AMD",
-      "title": "Caída extraordinaria para revisar: AMD",
-      "message": "AMD registra -8.97% desde la referencia diaria (585.30 → 532.78 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
-      "cooldownHours": 4,
-      "observedPrice": 532.78,
-      "referencePrice": 585.3,
-      "change": -0.08973176
+      "fingerprint": "318cfaa8f8e3c034ae66",
+      "code": "neural_model_promoted",
+      "severity": "info",
+      "ticker": null,
+      "title": "Nuevo Neural Champion promovido",
+      "message": "neural-v8-20260820-regularized-398e80a2d8 aprobó los gates temporales, de calibración y múltiples ensayos.",
+      "cooldownHours": 720
     }
   ],
-  "pendingAfterCooldown": 1,
+  "pendingAfterCooldown": 0,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -467,6 +464,5 @@
       "mode": "intraday"
     }
   ],
-  "quoteSource": "iex",
-  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
+  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
 }
