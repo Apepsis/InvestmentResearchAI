@@ -1,22 +1,109 @@
 {
-  "generatedAt": "2026-11-20T03:29:29+00:00",
-  "mode": "live",
+  "generatedAt": "2026-11-20T20:54:32+00:00",
+  "mode": "intraday",
   "deliveryEnabled": true,
-  "deliveryStatus": "no-new-alerts",
+  "deliveryStatus": "sent",
   "deliveryErrorClass": null,
-  "newAlertsSent": 0,
+  "newAlertsSent": 8,
   "candidates": [
     {
-      "fingerprint": "318cfaa8f8e3c034ae66",
-      "code": "neural_model_promoted",
-      "severity": "info",
-      "ticker": null,
-      "title": "Nuevo Neural Champion promovido",
-      "message": "neural-v8-20260826-regularized-7933d663e6 aprobó los gates temporales, de calibración y múltiples ensayos.",
-      "cooldownHours": 720
+      "fingerprint": "643ec636b88bff289553",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "NVDA",
+      "title": "Caída extraordinaria para revisar: NVDA",
+      "message": "NVDA registra -12.89% desde la referencia diaria (145.98 → 127.17 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 127.165,
+      "referencePrice": 145.98,
+      "change": -0.12888752
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "AMD",
+      "title": "Caída extraordinaria para revisar: AMD",
+      "message": "AMD registra -12.87% desde la referencia diaria (489.19 → 426.21 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 426.21,
+      "referencePrice": 489.19,
+      "change": -0.12874343
+    },
+    {
+      "fingerprint": "4394e2e485724e41caff",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "META",
+      "title": "Caída extraordinaria para revisar: META",
+      "message": "META registra -8.47% desde la referencia diaria (616.38 → 564.19 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 564.19,
+      "referencePrice": 616.38,
+      "change": -0.08467179
+    },
+    {
+      "fingerprint": "0928580ad1214459972e",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "ORCL",
+      "title": "Caída extraordinaria para revisar: ORCL",
+      "message": "ORCL registra -8.42% desde la referencia diaria (110.57 → 101.27 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 101.265,
+      "referencePrice": 110.57,
+      "change": -0.08415483
+    },
+    {
+      "fingerprint": "c00a85508d8c75ed45f1",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "UBER",
+      "title": "Caída extraordinaria para revisar: UBER",
+      "message": "UBER registra -7.37% desde la referencia diaria (68.76 → 63.69 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 63.69,
+      "referencePrice": 68.76,
+      "change": -0.07373473
+    },
+    {
+      "fingerprint": "77b4ea2ba3f19c3cf4ae",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "TSLA",
+      "title": "Caída extraordinaria para revisar: TSLA",
+      "message": "TSLA registra -7.31% desde la referencia diaria (374.41 → 347.03 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 347.03,
+      "referencePrice": 374.41,
+      "change": -0.07312839
+    },
+    {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "INTC",
+      "title": "Caída extraordinaria para revisar: INTC",
+      "message": "INTC registra -7.19% desde la referencia diaria (55.72 → 51.72 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 51.715,
+      "referencePrice": 55.72,
+      "change": -0.07187724
+    },
+    {
+      "fingerprint": "7894672302052161cd67",
+      "code": "intraday_price_drop",
+      "severity": "critical",
+      "ticker": "GS",
+      "title": "Caída extraordinaria para revisar: GS",
+      "message": "GS registra -6.70% desde la referencia diaria (847.53 → 790.73 USD). Esto no es una orden de venta; comprobar noticia, liquidez y tesis.",
+      "cooldownHours": 4,
+      "observedPrice": 790.73,
+      "referencePrice": 847.53,
+      "change": -0.06701828
     }
   ],
-  "pendingAfterCooldown": 0,
+  "pendingAfterCooldown": 8,
   "history": [
     {
       "fingerprint": "318cfaa8f8e3c034ae66",
@@ -478,7 +565,72 @@
       "severity": "critical",
       "sentAt": "2026-11-19T21:09:58+00:00",
       "mode": "intraday"
+    },
+    {
+      "fingerprint": "643ec636b88bff289553",
+      "code": "intraday_price_drop",
+      "ticker": "NVDA",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "398db8f8eb7137c6aebf",
+      "code": "intraday_price_drop",
+      "ticker": "AMD",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "4394e2e485724e41caff",
+      "code": "intraday_price_drop",
+      "ticker": "META",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "0928580ad1214459972e",
+      "code": "intraday_price_drop",
+      "ticker": "ORCL",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "c00a85508d8c75ed45f1",
+      "code": "intraday_price_drop",
+      "ticker": "UBER",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "77b4ea2ba3f19c3cf4ae",
+      "code": "intraday_price_drop",
+      "ticker": "TSLA",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "dc9b706d6c2f420fabce",
+      "code": "intraday_price_drop",
+      "ticker": "INTC",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
+    },
+    {
+      "fingerprint": "7894672302052161cd67",
+      "code": "intraday_price_drop",
+      "ticker": "GS",
+      "severity": "critical",
+      "sentAt": "2026-11-20T20:54:32+00:00",
+      "mode": "intraday"
     }
   ],
-  "policy": "Solo se envía un digest deduplicado; oportunidades requieren acuerdo entre 20 y 60 sesiones. No ejecuta operaciones."
+  "quoteSource": "iex",
+  "policy": "Monitor de 5 minutos; no reentrena ni ejecuta operaciones. Las señales exigen verificación humana."
 }
